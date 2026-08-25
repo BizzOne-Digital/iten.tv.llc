@@ -1,4 +1,5 @@
-import { NavLink, Outlet } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import {
   LayoutDashboard,
   FileText,
@@ -6,10 +7,11 @@ import {
   Wrench,
   Image as ImageIcon,
   Mail,
-  Settings,
   Video,
   LogOut,
   GalleryHorizontal,
+  Menu,
+  X,
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 
@@ -26,17 +28,37 @@ const LINKS = [
 
 export default function AdminLayout() {
   const { admin, logout } = useAuth();
+  const { pathname } = useLocation();
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => setOpen(false), [pathname]);
 
   return (
     <div className="min-h-screen flex bg-bg text-white">
-      <aside className="w-64 bg-elevated border-r border-white/10 flex flex-col">
-        <div className="px-6 py-6 border-b border-white/10">
-          <span className="font-heading font-bold text-xl">
-            iTEN<span className="text-brand-red">.TV</span>
-          </span>
-          <p className="text-xs text-gray mt-1">Admin Panel</p>
+      {open && (
+        <div
+          onClick={() => setOpen(false)}
+          className="fixed inset-0 bg-black/70 z-40 lg:hidden"
+        />
+      )}
+
+      <aside
+        className={`fixed lg:static inset-y-0 left-0 z-50 w-64 shrink-0 bg-elevated border-r border-white/10 flex flex-col transform transition-transform duration-300 lg:translate-x-0 ${
+          open ? 'translate-x-0' : '-translate-x-full'
+        }`}
+      >
+        <div className="px-6 py-6 border-b border-white/10 flex items-center justify-between">
+          <div>
+            <span className="font-heading font-bold text-xl">
+              iTEN<span className="text-brand-red">.TV</span>
+            </span>
+            <p className="text-xs text-gray mt-1">Admin Panel</p>
+          </div>
+          <button onClick={() => setOpen(false)} className="text-gray hover:text-white lg:hidden">
+            <X size={22} />
+          </button>
         </div>
-        <nav className="flex-1 px-4 py-6 space-y-1">
+        <nav className="flex-1 px-4 py-6 space-y-1 overflow-y-auto">
           {LINKS.map(({ to, label, icon: Icon, end }) => (
             <NavLink
               key={to}
@@ -63,9 +85,20 @@ export default function AdminLayout() {
           </button>
         </div>
       </aside>
-      <main className="flex-1 overflow-y-auto p-8">
-        <Outlet />
-      </main>
+
+      <div className="flex-1 flex flex-col min-w-0">
+        <header className="lg:hidden flex items-center justify-between px-4 py-4 border-b border-white/10 bg-elevated">
+          <span className="font-heading font-bold text-lg">
+            iTEN<span className="text-brand-red">.TV</span>
+          </span>
+          <button onClick={() => setOpen(true)} className="text-white">
+            <Menu size={24} />
+          </button>
+        </header>
+        <main className="flex-1 overflow-y-auto p-4 sm:p-6 lg:p-8">
+          <Outlet />
+        </main>
+      </div>
     </div>
   );
 }
