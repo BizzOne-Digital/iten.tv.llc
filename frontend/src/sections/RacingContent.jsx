@@ -3,6 +3,7 @@ import Button from '../components/Button';
 export default function RacingContent() {
   return (
     <section
+      id="racing"
       className="relative py-32 bg-cover bg-center"
       style={{ backgroundImage: "url('/track.png')" }}
     >

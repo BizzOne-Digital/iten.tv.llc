@@ -8,8 +8,8 @@ const NAV_LINKS = [
   { to: '/', label: 'Home' },
   { to: '/about', label: 'About' },
   { to: '/services', label: 'Services' },
-  { to: '/team', label: 'Team' },
-  { to: '/blog', label: 'Blog' },
+  { to: '/blog', label: 'Watch TV' },
+  { to: '/#racing', label: 'Racing' },
 ];
 
 export default function Header() {
