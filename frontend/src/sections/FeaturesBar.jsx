@@ -32,7 +32,7 @@ export default function FeaturesBar() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {PLATFORMS.map((p) => (
             <div key={p.name} className="flex flex-col items-center gap-3">
-              <img src={p.logo} alt={p.name} className="h-10 md:h-12 w-auto object-contain" />
+              <img src={p.logo} alt={p.name} className="h-16 md:h-24 w-auto object-contain" />
               <p className="text-gray text-xs max-w-[200px]">{p.desc}</p>
             </div>
           ))}
