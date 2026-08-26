@@ -1,22 +1,22 @@
 const PLATFORMS = [
   {
     name: 'Roku TV',
-    color: '#662D91',
+    logo: '/tv_logo_001.png',
     desc: "Available on all ROKU devices and smart TV's with ROKU built-in.",
   },
   {
-    name: 'amazon fireTV',
-    color: '#FF9900',
+    name: 'Amazon Fire TV',
+    logo: '/tv_logo_003.png',
     desc: 'Available on all Amazon Fire TV devices and smart TVs with ROKU built-in.',
   },
   {
     name: 'Apple TV',
-    color: '#F5F5F5',
+    logo: '/tv_logo_004.png',
     desc: 'Coming soon to APPLE TV. Stay tuned for updates.',
   },
   {
     name: 'Android / iOS',
-    color: '#3DDC84',
+    logo: '/tv_logo_005.png',
     desc: 'The iTEN.TV app is getting ready to launch very soon.',
   },
 ];
@@ -32,12 +32,7 @@ export default function FeaturesBar() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {PLATFORMS.map((p) => (
             <div key={p.name} className="flex flex-col items-center gap-3">
-              <span
-                className="font-heading font-bold text-2xl md:text-3xl uppercase tracking-tight"
-                style={{ color: p.color }}
-              >
-                {p.name}
-              </span>
+              <img src={p.logo} alt={p.name} className="h-10 md:h-12 w-auto object-contain" />
               <p className="text-gray text-xs max-w-[200px]">{p.desc}</p>
             </div>
           ))}
