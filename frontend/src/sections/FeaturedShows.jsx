@@ -7,11 +7,11 @@ export default function FeaturedShows() {
     <section className="py-24 bg-elevated">
       <div className="max-w-[1440px] mx-auto px-6">
         <SectionHeading eyebrow="Now Streaming" title="FEATURED" highlight="SHOWS" />
-        <div className="flex lg:grid lg:grid-cols-6 gap-4 sm:gap-5 overflow-x-auto snap-x snap-mandatory scroll-pl-6 pb-4 -mx-6 px-6 lg:mx-0 lg:px-0 lg:overflow-visible">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-5">
           {FEATURED_SHOWS.map((show) => (
             <div
               key={show.id}
-              className="group relative w-[42vw] sm:w-[220px] lg:w-auto shrink-0 lg:shrink aspect-[2/3] rounded-lg overflow-hidden snap-start"
+              className="group relative aspect-[2/3] rounded-lg overflow-hidden border-2 border-brand-red"
             >
               <img
                 src={show.poster}
