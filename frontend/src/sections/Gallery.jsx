@@ -15,8 +15,9 @@ export default function Gallery() {
   if (items.length === 0) return null;
 
   return (
-    <section className="py-24 bg-bg">
-      <div className="max-w-[1440px] mx-auto px-6">
+    <section className="relative py-24 bg-cover bg-center bg-bg" style={{ backgroundImage: "url('/lat.png')" }}>
+      <div className="absolute inset-0 bg-bg/60" />
+      <div className="relative max-w-[1440px] mx-auto px-6">
         <SectionHeading eyebrow="Latest Events" title="LATEST" highlight="EVENTS" align="center" />
         <div className="columns-2 md:columns-4 gap-4 space-y-4">
           {items.map((item) => (
