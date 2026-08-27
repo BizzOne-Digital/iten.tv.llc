@@ -28,7 +28,7 @@ export default function Header() {
         scrolled ? 'bg-bg/95 backdrop-blur-md border-b border-white/10' : 'bg-transparent backdrop-blur-sm'
       }`}
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+      <div className="max-w-[1440px] mx-auto flex items-center justify-between px-6 py-4">
         <Logo />
 
         <nav className="hidden md:flex items-center gap-8">

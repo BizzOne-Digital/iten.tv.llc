@@ -19,7 +19,7 @@ export default function LatestNews() {
 
   return (
     <section className="py-24">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-[1440px] mx-auto px-6">
         <SectionHeading eyebrow="From the Blog" title="LATEST" highlight="NEWS" />
         <div className="grid md:grid-cols-3 gap-6">
           {posts.map((post, i) => (

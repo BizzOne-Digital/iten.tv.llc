@@ -11,7 +11,7 @@ const CARDS = [
 export default function VideoProductionServices() {
   return (
     <section className="py-24">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-[1440px] mx-auto px-6">
         <SectionHeading eyebrow="What We Offer" title="VIDEO PRODUCTION" highlight="SERVICES" />
 
         <div className="bg-gradient-to-br from-card to-elevated border border-white/10 rounded-lg p-10 mb-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">

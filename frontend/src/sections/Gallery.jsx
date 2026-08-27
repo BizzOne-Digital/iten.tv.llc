@@ -16,7 +16,7 @@ export default function Gallery() {
 
   return (
     <section className="py-24 bg-elevated">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-[1440px] mx-auto px-6">
         <SectionHeading eyebrow="In the Field" title="GALLERY" align="center" />
         <div className="columns-2 md:columns-4 gap-4 space-y-4">
           {items.map((item) => (

@@ -24,7 +24,7 @@ const PLATFORMS = [
 export default function FeaturesBar() {
   return (
     <section className="bg-elevated border-y border-white/10 py-16">
-      <div className="max-w-7xl mx-auto px-6 text-center">
+      <div className="max-w-[1440px] mx-auto px-6 text-center">
         <h2 className="font-heading italic text-2xl md:text-3xl text-white mb-2">Watch us on</h2>
         <p className="text-gray text-sm mb-10">
           All platforms are either built into most smart TVs or are available as plug-in devices.

@@ -29,7 +29,7 @@ export default function Services() {
         style={{ backgroundImage: "url('/track.png')" }}
       >
         <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/70 to-bg/40" />
-        <div className="relative max-w-7xl mx-auto px-6 pb-14 w-full">
+        <div className="relative max-w-[1440px] mx-auto px-6 pb-14 w-full">
           <SectionHeading
             eyebrow="What We Do"
             title="OUR"
@@ -40,14 +40,14 @@ export default function Services() {
       </section>
 
       {!loading && services.length === 0 && (
-        <section className="pb-16 max-w-7xl mx-auto px-6">
+        <section className="pb-16 max-w-[1440px] mx-auto px-6">
           <p className="text-gray text-sm">Services are being updated — check back soon, or contact us directly.</p>
         </section>
       )}
 
       {services.map((s, i) => (
         <section key={s._id} className={`py-16 ${i % 2 === 1 ? 'bg-elevated' : ''}`}>
-          <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+          <div className="max-w-[1440px] mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
             <div className={i % 2 === 1 ? 'md:order-2' : ''}>
               <span className="text-brand-red font-heading text-sm tracking-[0.2em] uppercase mb-2 block">
                 Service {String(i + 1).padStart(2, '0')}

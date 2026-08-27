@@ -27,13 +27,10 @@ export default function WelcomeSection() {
   const headingMain = hero?.headingMain || 'DRIVEN BY';
   const headingHighlight = hero?.headingHighlight || 'PASSION...';
   const headingSub = hero?.headingSub || 'POWERED BY STORIES';
-  const description =
-    hero?.description ||
-    'iTEN.TV is a next-generation automotive and racing entertainment network — bringing street culture, motorsports, and builder stories to screens everywhere.';
 
   return (
-    <section className="py-20 bg-bg text-center">
-      <div className="relative z-10 max-w-3xl mx-auto px-6">
+    <section className="py-20 bg-bg">
+      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
         <motion.span
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -61,40 +58,43 @@ export default function WelcomeSection() {
         >
           {headingSub}
         </motion.h2>
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7, delay: 0.3 }}
-          className="text-gray max-w-xl mx-auto mt-6"
-        >
-          {description}
-        </motion.p>
+      </div>
 
+      <div className="max-w-[1440px] mx-auto px-6 mt-14 grid md:grid-cols-2 gap-12 items-start">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.7, delay: 0.4 }}
-          className="flex flex-wrap gap-4 mt-8 justify-center"
+          transition={{ duration: 0.7, delay: 0.1 }}
+          className="text-left space-y-5"
         >
-          <Button to="/blog" icon={Play}>Watch Now</Button>
-          <Button to="/services" variant="outline" icon={Compass}>Explore Our Shows</Button>
+          {STORY_PARAGRAPHS.map((p, i) => (
+            <p key={i} className={`text-gray ${i === 0 || i === 2 ? 'text-white font-heading uppercase tracking-wide text-lg' : ''}`}>
+              {p}
+            </p>
+          ))}
         </motion.div>
+
+        <motion.img
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7, delay: 0.2 }}
+          src="/huh.jpg"
+          alt="iTEN.TV racing"
+          className="w-full rounded-lg border border-white/10 object-cover"
+        />
       </div>
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.7, delay: 0.1 }}
-        className="max-w-3xl mx-auto px-6 mt-14 pt-14 border-t border-white/10 text-left space-y-5"
+        transition={{ duration: 0.7, delay: 0.3 }}
+        className="flex flex-wrap gap-4 mt-14 justify-center"
       >
-        {STORY_PARAGRAPHS.map((p, i) => (
-          <p key={i} className={`text-gray ${i === 0 || i === 2 ? 'text-white font-heading uppercase tracking-wide text-lg' : ''}`}>
-            {p}
-          </p>
-        ))}
+        <Button to="/blog" icon={Play}>Watch Now</Button>
+        <Button to="/services" variant="outline" icon={Compass}>Explore Our Shows</Button>
       </motion.div>
     </section>
   );

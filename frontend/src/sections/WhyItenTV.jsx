@@ -11,7 +11,7 @@ const REASONS = [
 export default function WhyItenTV() {
   return (
     <section className="py-24 bg-elevated">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-[1440px] mx-auto px-6">
         <SectionHeading eyebrow="Why Choose Us" title="WHY" highlight="iTEN.TV" align="center" />
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6">
           {REASONS.map(({ icon: Icon, title, desc }) => (

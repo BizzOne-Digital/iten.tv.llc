@@ -3,7 +3,7 @@ import SectionHeading from '../components/SectionHeading';
 export default function AboutSection() {
   return (
     <section className="py-24">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-14 items-center">
+      <div className="max-w-[1440px] mx-auto px-6 grid md:grid-cols-2 gap-14 items-center">
         <div>
           <SectionHeading
             eyebrow="Who We Are"

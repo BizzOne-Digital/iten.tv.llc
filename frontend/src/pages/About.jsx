@@ -45,7 +45,7 @@ export default function About() {
         style={{ backgroundImage: "url('/track.png')" }}
       >
         <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/70 to-bg/40" />
-        <div className="relative max-w-7xl mx-auto px-6 pb-14 w-full">
+        <div className="relative max-w-[1440px] mx-auto px-6 pb-14 w-full">
           <SectionHeading eyebrow="Our Story" title="ABOUT" highlight="iTEN.TV" />
         </div>
       </section>
@@ -54,7 +54,7 @@ export default function About() {
 
       {/* Automotive Entertainment */}
       <section className="py-24 bg-elevated">
-        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-14 items-center">
+        <div className="max-w-[1440px] mx-auto px-6 grid md:grid-cols-2 gap-14 items-center">
           <img
             src="/about1.png"
             alt="Automotive entertainment production"
@@ -89,7 +89,7 @@ export default function About() {
 
       {/* Values */}
       <section className="py-24 bg-elevated">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-[1440px] mx-auto px-6">
           <SectionHeading eyebrow="What We Stand For" title="OUR" highlight="VALUES" align="center" />
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {VALUES.map(({ icon: Icon, title, text }) => (
@@ -105,7 +105,7 @@ export default function About() {
 
       {/* Distribution platforms */}
       <section className="py-24">
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-[1440px] mx-auto px-6">
           <SectionHeading
             eyebrow="Where To Watch"
             title="STREAMING &"
@@ -128,7 +128,7 @@ export default function About() {
 
       {/* Video production */}
       <section className="py-24 bg-elevated">
-        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-14 items-center">
+        <div className="max-w-[1440px] mx-auto px-6 grid md:grid-cols-2 gap-14 items-center">
           <div>
             <SectionHeading
               eyebrow="Beyond The Network"
@@ -148,7 +148,7 @@ export default function About() {
 
       {/* Team preview */}
       <section className="py-24">
-        <div className="max-w-7xl mx-auto px-6 text-center">
+        <div className="max-w-[1440px] mx-auto px-6 text-center">
           <SectionHeading
             eyebrow="The People Behind It"
             title="MEET THE"

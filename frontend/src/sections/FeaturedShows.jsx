@@ -5,7 +5,7 @@ import { FEATURED_SHOWS } from '../utils/constants';
 export default function FeaturedShows() {
   return (
     <section className="py-24 bg-elevated">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-[1440px] mx-auto px-6">
         <SectionHeading eyebrow="Now Streaming" title="FEATURED" highlight="SHOWS" />
         <div className="flex lg:grid lg:grid-cols-6 gap-4 sm:gap-5 overflow-x-auto snap-x snap-mandatory scroll-pl-6 pb-4 -mx-6 px-6 lg:mx-0 lg:px-0 lg:overflow-visible">
           {FEATURED_SHOWS.map((show) => (

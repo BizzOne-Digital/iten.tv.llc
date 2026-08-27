@@ -45,7 +45,7 @@ export default function Blog() {
   return (
     <>
       <SEO title="Blog" description="Latest news and stories from iTEN.TV." />
-      <section className="pt-40 pb-16 max-w-7xl mx-auto px-6">
+      <section className="pt-40 pb-16 max-w-[1440px] mx-auto px-6">
         <SectionHeading eyebrow="News & Stories" title="THE" highlight="BLOG" />
 
         <div className="flex flex-wrap gap-4 items-center justify-between mb-10">

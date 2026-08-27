@@ -18,7 +18,7 @@ export default function Team() {
   return (
     <>
       <SEO title="Our Team" description="Meet the team behind iTEN.TV." />
-      <section className="pt-40 pb-24 max-w-7xl mx-auto px-6">
+      <section className="pt-40 pb-24 max-w-[1440px] mx-auto px-6">
         <SectionHeading eyebrow="The People" title="MEET THE" highlight="TEAM" align="center" />
         {members.length === 0 && <p className="text-gray text-center">Team profiles coming soon.</p>}
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6">
