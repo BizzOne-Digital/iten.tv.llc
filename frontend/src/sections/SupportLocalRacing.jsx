@@ -8,7 +8,7 @@ export default function SupportLocalRacing() {
         <div>
           <h2 className="font-heading italic text-2xl md:text-3xl text-white mb-4">Supporting Local Racing</h2>
           <img
-            src="/support-local-racing.jpg"
+            src="/local.jpg"
             alt="Local grassroots racing"
             className="w-full rounded-lg border border-white/10 object-cover"
           />
