@@ -1,3 +1,5 @@
+import SectionHeading from '../components/SectionHeading';
+
 export default function ContactCTA() {
   return (
     <section className="py-24 bg-elevated">
@@ -8,9 +10,7 @@ export default function ContactCTA() {
           className="w-full rounded-lg border-2 border-brand-red object-cover"
         />
         <div>
-          <h2 className="font-heading italic text-2xl md:text-3xl text-white mb-6 text-center md:text-left">
-            Like what you see?
-          </h2>
+          <SectionHeading eyebrow="Get In Touch" title="LIKE WHAT YOU" highlight="SEE?" />
           <p className="text-white font-heading uppercase tracking-wide mb-6">
             Do you have an event or project that needs to be filmed or produced right? Even a TV show idea!
           </p>
