@@ -6,8 +6,6 @@ import FeaturedShows from '../sections/FeaturedShows';
 import SampleVideo from '../sections/SampleVideo';
 import SupportLocalRacing from '../sections/SupportLocalRacing';
 import AboutSection from '../sections/AboutSection';
-import RacingContent from '../sections/RacingContent';
-import VideoProductionServices from '../sections/VideoProductionServices';
 import WhyItenTV from '../sections/WhyItenTV';
 import LatestNews from '../sections/LatestNews';
 import Gallery from '../sections/Gallery';
@@ -20,19 +18,19 @@ export default function Home() {
         title="Home"
         description="iTEN.TV — automotive and racing entertainment network streaming on Roku and Amazon Fire TV."
       />
-      <Hero />
-      <WelcomeSection />
-      <FeaturesBar />
-      <FeaturedShows />
-      <SampleVideo />
-      <SupportLocalRacing />
-      <AboutSection />
-      <RacingContent />
-      <VideoProductionServices />
-      <WhyItenTV />
-      <LatestNews />
-      <Gallery />
-      <ContactCTA />
+      <div className="divide-y divide-white/10">
+        <Hero />
+        <WelcomeSection />
+        <FeaturesBar />
+        <FeaturedShows />
+        <SampleVideo />
+        <SupportLocalRacing />
+        <AboutSection />
+        <WhyItenTV />
+        <LatestNews />
+        <Gallery />
+        <ContactCTA />
+      </div>
     </>
   );
 }

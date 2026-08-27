@@ -17,10 +17,13 @@ export default function Gallery() {
   return (
     <section className="py-24 bg-elevated">
       <div className="max-w-[1440px] mx-auto px-6">
-        <SectionHeading eyebrow="In the Field" title="GALLERY" align="center" />
+        <SectionHeading eyebrow="Latest Events" title="LATEST" highlight="EVENTS" align="center" />
         <div className="columns-2 md:columns-4 gap-4 space-y-4">
           {items.map((item) => (
-            <div key={item._id} className="relative group break-inside-avoid rounded-lg overflow-hidden">
+            <div
+              key={item._id}
+              className="relative group break-inside-avoid rounded-lg overflow-hidden border-2 border-brand-red"
+            >
               <img
                 src={item.image?.url}
                 alt={item.title}

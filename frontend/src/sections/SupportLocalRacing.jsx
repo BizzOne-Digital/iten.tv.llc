@@ -2,7 +2,7 @@ import Button from '../components/Button';
 
 export default function SupportLocalRacing() {
   return (
-    <section className="relative py-24 bg-cover bg-center" style={{ backgroundImage: "url('/track.png')" }}>
+    <section id="racing" className="relative py-24 bg-cover bg-center" style={{ backgroundImage: "url('/track.png')" }}>
       <div className="absolute inset-0 bg-bg/85" />
       <div className="relative max-w-[1440px] mx-auto px-6 grid md:grid-cols-2 gap-12 items-start">
         <div>
