@@ -10,8 +10,8 @@ export const FEATURED_SHOWS = [
   { id: 2, title: 'Garage Builds', genre: 'Automotive', poster: '/new2.jpg' },
   { id: 3, title: 'Track Day Diaries', genre: 'Racing', poster: '/new3.jpg' },
   { id: 4, title: 'Horsepower Nation', genre: 'Automotive', poster: '/new4.jpg' },
-  { id: 5, title: 'Drift Kings', genre: 'Racing', poster: '/img5.png' },
-  { id: 6, title: 'Custom Culture', genre: 'Automotive', poster: '/img6.png' },
+  { id: 5, title: 'Drift Kings', genre: 'Racing', poster: '/new5.jpg' },
+  { id: 6, title: 'Custom Culture', genre: 'Automotive', poster: '/new6.jpg' },
 ];
 
 export const PROJECT_TYPES = ['Commercial', 'Racing Content', 'Documentary', 'Brand Partnership', 'Other'];
