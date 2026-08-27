@@ -15,7 +15,7 @@ export default function WhyItenTV() {
         <SectionHeading eyebrow="Why Choose Us" title="WHY" highlight="iTEN.TV" align="center" />
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6">
           {REASONS.map(({ icon: Icon, title, desc }) => (
-            <div key={title} className="text-center bg-card border border-white/10 rounded-lg p-8">
+            <div key={title} className="text-center bg-card border-2 border-brand-red rounded-lg p-8">
               <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-brand-red/10 flex items-center justify-center">
                 <Icon size={22} className="text-brand-red" />
               </div>

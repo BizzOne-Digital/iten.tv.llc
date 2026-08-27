@@ -82,7 +82,7 @@ export default function WelcomeSection() {
           transition={{ duration: 0.7, delay: 0.2 }}
           src="/huh.jpg"
           alt="iTEN.TV racing"
-          className="w-full rounded-lg border border-white/10 object-cover"
+          className="w-full rounded-lg border-2 border-brand-red object-cover"
         />
       </div>
 
