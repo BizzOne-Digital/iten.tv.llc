@@ -15,7 +15,7 @@ export default function Gallery() {
   if (items.length === 0) return null;
 
   return (
-    <section className="py-24 bg-elevated">
+    <section className="py-24 bg-bg">
       <div className="max-w-[1440px] mx-auto px-6">
         <SectionHeading eyebrow="Latest Events" title="LATEST" highlight="EVENTS" align="center" />
         <div className="columns-2 md:columns-4 gap-4 space-y-4">

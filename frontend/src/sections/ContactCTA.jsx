@@ -1,19 +1,34 @@
-import { Send, Phone } from 'lucide-react';
-import Button from '../components/Button';
-
 export default function ContactCTA() {
   return (
-    <section className="py-24">
-      <div className="max-w-5xl mx-auto px-6 text-center bg-gradient-to-br from-card to-elevated border border-white/10 rounded-2xl py-16 px-8">
-        <h2 className="text-3xl md:text-4xl font-heading font-bold uppercase text-white mb-4">
-          LIKE WHAT YOU <span className="text-brand-red">SEE?</span>
-        </h2>
-        <p className="text-gray max-w-xl mx-auto mb-8">
-          Whether it's a race weekend, a build reveal, or a brand campaign — let's create something worth watching.
-        </p>
-        <div className="flex flex-wrap gap-4 justify-center">
-          <Button to="/contact" icon={Send}>Start a Project</Button>
-          <Button to="/contact" variant="outline" icon={Phone}>Contact iTEN.TV</Button>
+    <section className="py-24 bg-elevated">
+      <div className="max-w-[1440px] mx-auto px-6 grid md:grid-cols-2 gap-12 items-start">
+        <img
+          src="/like-what-you-see.jpg"
+          alt="iTEN.TV production collage"
+          className="w-full rounded-lg border-2 border-brand-red object-cover"
+        />
+        <div>
+          <h2 className="font-heading italic text-2xl md:text-3xl text-white mb-6 text-center md:text-left">
+            Like what you see?
+          </h2>
+          <p className="text-white font-heading uppercase tracking-wide mb-6">
+            Do you have an event or project that needs to be filmed or produced right? Even a TV show idea!
+          </p>
+          <div className="space-y-5 text-gray text-sm md:text-base">
+            <p>
+              At iTEN.TV, we don't just capture great footage, we produce it, start to finish, entirely
+              in-house. From live event coverage and broadcast-ready TV commercials to music videos and
+              scroll-stopping social media content, our team handles the full production pipeline under one
+              roof.
+            </p>
+            <p>
+              iTEN.TV is built by industry specialists with a combined 70+ years of experience, having worked
+              alongside some of the biggest names in the business. We're not a weekend hobby crew or a
+              YouTube-certified operation chasing trends. We're the real deal, seasoned professionals
+              delivering broadcast-quality work, every time.
+            </p>
+            <p>Let's bring your next project to life. A job by iTEN.TV is a job worth doing!</p>
+          </div>
         </div>
       </div>
     </section>
