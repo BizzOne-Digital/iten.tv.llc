@@ -119,7 +119,7 @@ export default function Services() {
                 Service {String(i + 1).padStart(2, '0')}
               </span>
               <h2 className="text-3xl md:text-4xl font-heading font-bold uppercase text-white mb-4">{s.title}</h2>
-              <p className="text-gray mb-6">{s.description}</p>
+              <p className="text-gray mb-6 whitespace-pre-line">{s.description}</p>
               <Button to="/contact" icon={ArrowRight}>Inquire About This</Button>
             </div>
             <img

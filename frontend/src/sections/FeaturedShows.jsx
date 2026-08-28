@@ -1,4 +1,3 @@
-import { Play } from 'lucide-react';
 import SectionHeading from '../components/SectionHeading';
 import { FEATURED_SHOWS } from '../utils/constants';
 
@@ -11,18 +10,13 @@ export default function FeaturedShows() {
           {FEATURED_SHOWS.map((show) => (
             <div
               key={show.id}
-              className="group relative aspect-[2/3] rounded-lg overflow-hidden border-2 border-brand-red"
+              className="relative aspect-[2/3] rounded-lg overflow-hidden border-2 border-brand-red"
             >
               <img
                 src={show.poster}
                 alt={show.title}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">
-                <Play size={28} className="text-brand-red mb-2" />
-                <h3 className="text-white font-heading text-sm uppercase">{show.title}</h3>
-                <span className="text-gray text-xs">{show.genre}</span>
-              </div>
             </div>
           ))}
         </div>
