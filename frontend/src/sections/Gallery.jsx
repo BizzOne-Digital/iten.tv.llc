@@ -18,7 +18,7 @@ export default function Gallery() {
     <section className="relative py-24 bg-cover bg-center bg-bg" style={{ backgroundImage: "url('/lat.png')" }}>
       <div className="absolute inset-0 bg-bg/60" />
       <div className="relative max-w-[1440px] mx-auto px-6">
-        <SectionHeading eyebrow="Latest Events" title="LATEST" highlight="EVENTS" align="center" />
+        <SectionHeading eyebrow="Cool Stuff" title="AWESOME" highlight="GALLERIES" align="center" />
         <div className="columns-2 md:columns-4 gap-4 space-y-4">
           {items.map((item) => (
             <div

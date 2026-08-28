@@ -94,7 +94,7 @@ export default function WelcomeSection() {
         className="flex flex-wrap gap-4 mt-14 justify-center"
       >
         <Button to="/blog" icon={Play}>Watch Now</Button>
-        <Button to="/services" variant="outline" icon={Compass}>Explore Our Shows</Button>
+        <Button to="/watch" variant="outline" icon={Compass}>Explore Our Shows</Button>
       </motion.div>
     </section>
   );

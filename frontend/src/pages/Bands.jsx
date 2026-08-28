@@ -8,7 +8,7 @@ export default function Bands() {
 
       <section
         className="relative h-[45vh] min-h-[360px] flex items-end bg-cover bg-center pt-32"
-        style={{ backgroundImage: "url('/track.png')" }}
+        style={{ backgroundImage: "url('/clinet8.jpg')" }}
       >
         <div className="absolute inset-0 bg-bg/60" />
         <div className="relative max-w-[1440px] mx-auto px-6 pb-14 w-full">
