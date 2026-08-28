@@ -8,7 +8,7 @@ const PARTNERS = [
   { image: '/racing/project4.jpg', name: 'Mountain Home Speedway', type: 'Racing Series (TV Production) - Idaho' },
   { image: '/racing/project8.jpg', name: 'Black Canyon Raceway', type: 'Photography, Video, Social Media' },
   { image: '/racing/project9.jpg', name: 'Speedbowl', type: 'Photography, Video, Social Media' },
-  { image: null, name: 'Matt Egley Racing', type: 'Photography, Video, Social Media' },
+  { image: '/clinet6.jpg', name: 'Matt Egley Racing', type: 'Photography, Video, Social Media' },
   { image: '/racing/project6.jpg', name: 'Anderson 68 Racing', type: 'All media services' },
   { image: '/racing/project11.jpg', name: 'Gym Ratz Racing', type: 'All media services' },
   { image: '/racing/project10.jpg', name: 'Flashburn Racing', type: 'All media services' },
@@ -28,9 +28,18 @@ export default function Racing() {
     <>
       <SEO title="Racing" description="From full TV productions to hero cards — iTEN.TV partners with race tracks, teams, and drivers across the country." />
 
-      <section className="pt-40 pb-16 bg-bg">
+      <section
+        className="relative h-[45vh] min-h-[360px] flex items-end bg-cover bg-center pt-32"
+        style={{ backgroundImage: "url('/track.png')" }}
+      >
+        <div className="absolute inset-0 bg-bg/60" />
+        <div className="relative max-w-[1440px] mx-auto px-6 pb-14 w-full">
+          <SectionHeading eyebrow="From Full TV Productions To Hero Cards" title="RACING WITH" highlight="iTEN.TV" />
+        </div>
+      </section>
+
+      <section className="pt-16 pb-16 bg-bg">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <SectionHeading eyebrow="From Full TV Productions To Hero Cards" title="RACING WITH" highlight="iTEN.TV" align="center" />
           <p className="text-gray mb-4">
             Over the years, we've been lucky enough to team up with some of the most iconic race tracks and
             event series across the country! From crafting high-energy promotional videos to designing

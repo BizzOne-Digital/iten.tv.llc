@@ -9,7 +9,7 @@ const SERVICES = [
     slug: 'production',
     description:
       'Full video production services from concept to delivery — location scouting, script development, storyboards, filming, editing, VFX, motion graphics, music, and 3D. We\'ve offered live video streaming since 2011.',
-    image: { url: 'https://picsum.photos/700/500?random=101' },
+    image: { url: '/clinet1.jpg' },
     order: 1,
   },
   {
@@ -17,7 +17,7 @@ const SERVICES = [
     slug: 'creative',
     description:
       'Professional photography for sports, industrial, fashion, promotions, products, events, food services, and more.',
-    image: { url: 'https://picsum.photos/700/500?random=102' },
+    image: { url: '/clinet2.jpg' },
     order: 2,
   },
   {
@@ -25,7 +25,7 @@ const SERVICES = [
     slug: 'shows',
     description:
       'We make videos — big, bold, and everywhere. TV, online, corporate... you name it. Original programming built for real audiences.',
-    image: { url: 'https://picsum.photos/700/500?random=103' },
+    image: { url: '/clinet3.jpg' },
     order: 3,
   },
   {
@@ -33,7 +33,7 @@ const SERVICES = [
     slug: 'racing-media',
     description:
       'From full TV productions to hero cards — high-energy promotional videos, event photography, sponsorship proposals, and social media content for race teams and drivers, dirt or pavement.',
-    image: { url: 'https://picsum.photos/700/500?random=104' },
+    image: { url: '/clinet4.jpg' },
     order: 4,
   },
   {

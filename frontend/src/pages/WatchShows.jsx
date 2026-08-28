@@ -98,10 +98,20 @@ export default function WatchShows() {
     <>
       <SEO title="Watch Shows" description="Watch iTEN.TV grassroots racing shows, documentaries, and original series on Roku and Amazon Fire TV." />
 
-      {/* Hero + Sign Up */}
-      <section className="pt-40 pb-24 bg-bg text-center">
+      {/* Banner */}
+      <section
+        className="relative h-[45vh] min-h-[360px] flex items-end bg-cover bg-center pt-32"
+        style={{ backgroundImage: "url('/track.png')" }}
+      >
+        <div className="absolute inset-0 bg-bg/60" />
+        <div className="relative max-w-[1440px] mx-auto px-6 pb-14 w-full">
+          <SectionHeading eyebrow="Now Streaming" title="WATCH" highlight="SHOWS" />
+        </div>
+      </section>
+
+      {/* Sign Up */}
+      <section className="py-24 bg-bg text-center">
         <div className="max-w-3xl mx-auto px-6">
-          <SectionHeading eyebrow="Now Streaming" title="WATCH" highlight="SHOWS" align="center" />
           <p className="text-gray mb-6">
             We're constantly uploading new shows, but in the meantime these are some of the shows we feature.
           </p>
@@ -210,9 +220,9 @@ export default function WatchShows() {
                 <img
                   src={`/watch-page/show_${String(i + 1).padStart(3, '0')}.jpg`}
                   alt={label}
-                  className="w-full aspect-video object-cover rounded-t-lg border-2 border-white/30 border-b-0"
+                  className="w-full aspect-video object-cover rounded-t-lg border-2 border-brand-red border-b-0"
                 />
-                <p className="bg-black text-white text-center font-heading uppercase text-sm py-2 rounded-b-lg border-2 border-t-0 border-white/30">
+                <p className="bg-black text-white text-center font-heading uppercase text-sm py-2 rounded-b-lg border-2 border-t-0 border-brand-red">
                   {label}
                 </p>
               </div>
@@ -233,7 +243,7 @@ export default function WatchShows() {
           <div className="grid md:grid-cols-3 gap-8">
             {HOW_TO.map((step, i) => (
               <div key={i}>
-                <img src={step.image} alt={`How to watch step ${i + 1}`} className="w-full rounded-lg bg-white p-4 mb-4" />
+                <img src={step.image} alt={`How to watch step ${i + 1}`} className="w-full rounded-lg bg-white p-4 mb-4 border-2 border-brand-red" />
                 <p className="text-gray text-sm">{step.text}</p>
               </div>
             ))}

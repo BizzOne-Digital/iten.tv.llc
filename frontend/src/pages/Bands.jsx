@@ -6,10 +6,18 @@ export default function Bands() {
     <>
       <SEO title="Bands" description="Music videos and EPKs from iTEN.TV — bands we've worked with, and how we help you get booked." />
 
-      <section className="pt-40 pb-24 bg-bg">
-        <div className="max-w-[1440px] mx-auto px-6">
-          <SectionHeading eyebrow="EPK's - Music Videos" title="BANDS" align="center" />
+      <section
+        className="relative h-[45vh] min-h-[360px] flex items-end bg-cover bg-center pt-32"
+        style={{ backgroundImage: "url('/track.png')" }}
+      >
+        <div className="absolute inset-0 bg-bg/60" />
+        <div className="relative max-w-[1440px] mx-auto px-6 pb-14 w-full">
+          <SectionHeading eyebrow="EPK's - Music Videos" title="BANDS" />
+        </div>
+      </section>
 
+      <section className="pt-24 pb-24 bg-bg">
+        <div className="max-w-[1440px] mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-start mb-20">
             <img
               src="/brandimg1.jpg"

@@ -1,7 +1,5 @@
-import { ArrowRight } from 'lucide-react';
 import SEO from '../components/SEO';
 import SectionHeading from '../components/SectionHeading';
-import Button from '../components/Button';
 
 const TEAM = [
   {
@@ -220,28 +218,6 @@ export default function About() {
                 <img src="/aboutpage9.jpg" alt="Area 51 Rock n' Roll Invasion event poster" className="w-full rounded-lg border border-white/10 mt-3" />
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Team + Services CTAs */}
-      <section className="py-24 bg-elevated">
-        <div className="max-w-[1440px] mx-auto px-6 grid sm:grid-cols-2 gap-6 text-center">
-          <div className="bg-card border-2 border-brand-red rounded-lg p-10">
-            <h3 className="font-heading uppercase text-white text-xl mb-3">Meet The Full Team</h3>
-            <p className="text-gray text-sm mb-6">
-              Cinematographers, producers, racing consultants, and technical specialists — the crew putting
-              iTEN.TV on screens everywhere.
-            </p>
-            <Button to="/team" icon={ArrowRight}>View Our Team</Button>
-          </div>
-          <div className="bg-card border-2 border-brand-red rounded-lg p-10">
-            <h3 className="font-heading uppercase text-white text-xl mb-3">Ready To Elevate Your Project?</h3>
-            <p className="text-gray text-sm mb-6">
-              Beyond our own programming, iTEN.TV produces professional video content for brands, events, and
-              businesses of every size.
-            </p>
-            <Button to="/services" icon={ArrowRight}>See Our Services</Button>
           </div>
         </div>
       </section>

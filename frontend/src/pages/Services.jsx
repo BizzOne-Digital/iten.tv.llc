@@ -3,17 +3,11 @@ import { ArrowRight, Palette, Video, Scissors, Sparkles, Music, Volume2, CheckCi
 import SEO from '../components/SEO';
 import SectionHeading from '../components/SectionHeading';
 import Button from '../components/Button';
-import VideoProductionServices from '../sections/VideoProductionServices';
 import ContactCTA from '../sections/ContactCTA';
 import api from '../services/api';
 import { img } from '../utils/constants';
 
 const SAMPLE_VIDEOS = [
-  {
-    title: '2026 Showreel',
-    youtubeId: 'CDkjYcXAuHY',
-    desc: "Watch a fraction of some of the work we have created over the years. All video, editing, animations by iTEN.TV's John D. We specialize in all types of productions and can deliver to any format required.",
-  },
   {
     title: 'Motorsport Productions',
     youtubeId: 'qshIUYNwyIc',
@@ -266,7 +260,6 @@ export default function Services() {
         </div>
       </section>
 
-      <VideoProductionServices />
       <ContactCTA />
     </>
   );
