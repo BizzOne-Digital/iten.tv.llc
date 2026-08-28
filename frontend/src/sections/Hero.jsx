@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import api from '../services/api';
-import { PLACEHOLDER_HERO_POSTER } from '../utils/constants';
 
 export default function Hero() {
   const [hero, setHero] = useState(null);
@@ -13,7 +12,7 @@ export default function Hero() {
   }, []);
 
   const videoUrl = hero?.videoUrl || '/hero.mp4';
-  const poster = hero?.posterImageUrl || PLACEHOLDER_HERO_POSTER;
+  const poster = hero?.posterImageUrl || '/hero-poster.jpg';
 
   return (
     <section className="relative h-[70vh] min-h-[420px] w-full overflow-hidden">
