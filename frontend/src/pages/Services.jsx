@@ -255,7 +255,7 @@ export default function Services() {
           <h2 className="font-heading italic text-2xl md:text-3xl text-white text-center mb-8">
             Proud to have provided services for the following:
           </h2>
-          <img src="/logos2.jpg" alt="Brands and networks iTEN.TV has worked with" className="w-full rounded-lg bg-white p-4" />
+          <img src="/logos2.jpg" alt="Brands and networks iTEN.TV has worked with" className="w-full rounded-lg bg-white p-4 border-2 border-brand-red" />
         </div>
       </section>
     </>

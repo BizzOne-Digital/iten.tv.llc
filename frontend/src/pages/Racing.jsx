@@ -92,13 +92,13 @@ export default function Racing() {
             media pages. We just ask you NOT to remove the water marks. If you like them so much and you'd like
             to buy us a coffee click the link below or even shoot us an email and buy some pics.
           </p>
-          <img src="/racing/racing_mon.jpg" alt="iTEN.TV film crew at the racetrack" className="w-full rounded-lg border border-white/10 mb-4" />
+          <img src="/racing/racing_mon.jpg" alt="iTEN.TV film crew at the racetrack" className="w-full rounded-lg border-2 border-brand-red mb-4" />
           <p className="text-gray text-sm mb-10">
             iTEN.TV - The friendliest and most sociable film crew at any racetrack in the US. Loved by racers and
             the Fans.
           </p>
           <a href="https://buymeacoffee.com/itentv" target="_blank" rel="noreferrer" className="block">
-            <img src="/racing/coffee.jpg" alt="Did you like your picture? You can buy me a coffee!" className="w-full rounded-lg hover:opacity-90 transition-opacity" />
+            <img src="/racing/coffee.jpg" alt="Did you like your picture? You can buy me a coffee!" className="w-full rounded-lg border-2 border-brand-red hover:opacity-90 transition-opacity" />
           </a>
         </div>
       </section>
