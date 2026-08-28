@@ -7,6 +7,9 @@ import ProtectedRoute from './admin/ProtectedRoute';
 const Home = lazy(() => import('./pages/Home'));
 const About = lazy(() => import('./pages/About'));
 const Services = lazy(() => import('./pages/Services'));
+const WatchShows = lazy(() => import('./pages/WatchShows'));
+const Bands = lazy(() => import('./pages/Bands'));
+const Racing = lazy(() => import('./pages/Racing'));
 const Team = lazy(() => import('./pages/Team'));
 const Blog = lazy(() => import('./pages/Blog'));
 const BlogDetail = lazy(() => import('./pages/BlogDetail'));
@@ -38,6 +41,9 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/watch" element={<WatchShows />} />
+          <Route path="/bands" element={<Bands />} />
+          <Route path="/racing" element={<Racing />} />
           <Route path="/team" element={<Team />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogDetail />} />
