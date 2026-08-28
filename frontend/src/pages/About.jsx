@@ -66,7 +66,7 @@ export default function About() {
       {/* Intro + Why Choose Us */}
       <section className="py-24 bg-bg">
         <div className="max-w-4xl mx-auto px-6 text-center space-y-6">
-          <p className="text-gray text-lg">
+          <p className="text-gray">
             Are you searching for top-tier video, and design production services without breaking the bank?
             Look no further! With over 30 years of experience in the film, advertising, and music industries,
             we are here to deliver the exceptional quality you deserve.
@@ -110,7 +110,7 @@ export default function About() {
                 <div className="p-5">
                   <h3 className="font-heading uppercase text-white">{m.name}</h3>
                   <p className="text-brand-red text-sm mb-3">{m.role}</p>
-                  <p className="text-gray text-xs">{m.bio}</p>
+                  <p className="text-gray">{m.bio}</p>
                 </div>
               </div>
             ))}
@@ -128,7 +128,7 @@ export default function About() {
             <div>
               <img src="/aboutpage5.jpg" alt="Fun Fact" className="w-full aspect-video object-cover rounded-t-lg border-2 border-brand-red border-b-0" />
               <div className="bg-brand-red text-white text-center font-heading uppercase text-lg py-2">Fun Fact</div>
-              <div className="bg-card border-2 border-t-0 border-brand-red rounded-b-lg p-5 space-y-3 text-gray text-sm">
+              <div className="bg-card border-2 border-t-0 border-brand-red rounded-b-lg p-5 space-y-3 text-gray">
                 <p>
                   Growing up in a family of racers (that's another story) John originally wanted to be a fighter
                   pilot in the Air Force, but also wanted to be a Rock Star and a MotoGP racer.
@@ -161,7 +161,7 @@ export default function About() {
             <div>
               <img src="/aboutpage6.jpg" alt="Where it begun" className="w-full aspect-video object-cover rounded-t-lg border-2 border-brand-red border-b-0" />
               <div className="bg-brand-red text-white text-center font-heading uppercase text-lg py-2">Where It Begun</div>
-              <div className="bg-card border-2 border-t-0 border-brand-red rounded-b-lg p-5 space-y-3 text-gray text-sm">
+              <div className="bg-card border-2 border-t-0 border-brand-red rounded-b-lg p-5 space-y-3 text-gray">
                 <p>
                   In the mid-1990s, RealNetworks was among the pioneering companies that introduced video
                   streaming over the internet. Although early streaming technology offered video quality that
@@ -193,7 +193,7 @@ export default function About() {
             <div>
               <img src="/aboutpage7.jpg" alt="1st HD Concert" className="w-full aspect-video object-cover rounded-t-lg border-2 border-brand-red border-b-0" />
               <div className="bg-brand-red text-white text-center font-heading uppercase text-lg py-2">1st HD Concert</div>
-              <div className="bg-card border-2 border-t-0 border-brand-red rounded-b-lg p-5 space-y-3 text-gray text-sm">
+              <div className="bg-card border-2 border-t-0 border-brand-red rounded-b-lg p-5 space-y-3 text-gray">
                 <p>
                   Back in 2010 John met Valerie at the meeting of a music video shoot. John was to film and
                   Valerie was to play the lead role (no, not shaking her butt on the hood of Whitesnake's car).

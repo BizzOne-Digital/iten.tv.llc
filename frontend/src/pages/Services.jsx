@@ -3,7 +3,6 @@ import { ArrowRight, Palette, Video, Scissors, Sparkles, Music, Volume2, CheckCi
 import SEO from '../components/SEO';
 import SectionHeading from '../components/SectionHeading';
 import Button from '../components/Button';
-import ContactCTA from '../sections/ContactCTA';
 import api from '../services/api';
 import { img } from '../utils/constants';
 
@@ -259,8 +258,6 @@ export default function Services() {
           <img src="/logos2.jpg" alt="Brands and networks iTEN.TV has worked with" className="w-full rounded-lg bg-white p-4" />
         </div>
       </section>
-
-      <ContactCTA />
     </>
   );
 }
