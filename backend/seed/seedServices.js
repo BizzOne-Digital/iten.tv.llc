@@ -5,42 +5,42 @@ const Service = require('../models/Service');
 
 const SERVICES = [
   {
-    title: 'Video Production',
-    slug: 'video-production',
+    title: 'Production',
+    slug: 'production',
     description:
-      'Full-service video production from concept through final edit — automotive shows, brand films, and broadcast-quality episodic content. Video productions available from $500+ — contact us for a custom quote.',
+      'Full video production services from concept to delivery — location scouting, script development, storyboards, filming, editing, VFX, motion graphics, music, and 3D. We\'ve offered live video streaming since 2011.',
     image: { url: 'https://picsum.photos/700/500?random=101' },
     order: 1,
   },
   {
-    title: 'Event Coverage',
-    slug: 'event-coverage',
+    title: 'Creative',
+    slug: 'creative',
     description:
-      'Multi-camera coverage of races, car shows, and automotive events — capturing the action, the crowd, and the stories on-site.',
+      'Professional photography for sports, industrial, fashion, promotions, products, events, food services, and more.',
     image: { url: 'https://picsum.photos/700/500?random=102' },
     order: 2,
   },
   {
-    title: 'Promotional Video',
-    slug: 'promotional-video',
+    title: 'Shows',
+    slug: 'shows',
     description:
-      'Professional marketing and commercial content built to convert — for dealerships, shops, and automotive brands.',
+      'We make videos — big, bold, and everywhere. TV, online, corporate... you name it. Original programming built for real audiences.',
     image: { url: 'https://picsum.photos/700/500?random=103' },
     order: 3,
   },
   {
-    title: 'Automotive Content',
-    slug: 'automotive-content',
+    title: 'Racing Media',
+    slug: 'racing-media',
     description:
-      'Original shows and entertainment programming built for car and motorcycle audiences — muscle cars, exotics, and custom builds.',
+      'From full TV productions to hero cards — high-energy promotional videos, event photography, sponsorship proposals, and social media content for race teams and drivers, dirt or pavement.',
     image: { url: 'https://picsum.photos/700/500?random=104' },
     order: 4,
   },
   {
-    title: 'Post Production',
-    slug: 'post-production',
+    title: 'Music Videos & EPKs',
+    slug: 'music-videos-epks',
     description:
-      'Editing, color, motion graphics, and delivery — turning raw footage into broadcast-ready episodes and campaigns.',
+      'Music videos typically start around $2,000-$3,000 depending on scope — contact us for a custom quote. We also build EPKs (Electronic Press Kits): band bio, photography, and work samples in print and video form.',
     image: { url: 'https://picsum.photos/700/500?random=105' },
     order: 5,
   },

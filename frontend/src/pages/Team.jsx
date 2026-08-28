@@ -23,7 +23,7 @@ export default function Team() {
         {members.length === 0 && <p className="text-gray text-center">Team profiles coming soon.</p>}
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6">
           {members.map((m, i) => (
-            <div key={m._id} className="bg-card border border-white/10 rounded-lg overflow-hidden text-center">
+            <div key={m._id} className="bg-card border-2 border-brand-red rounded-lg overflow-hidden text-center">
               <img
                 src={m.photo?.url || img(80 + i, 400, 400)}
                 alt={m.name}

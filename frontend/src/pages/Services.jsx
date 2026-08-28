@@ -22,20 +22,21 @@ export default function Services() {
 
   return (
     <>
-      <SEO title="Services" description="Video production services from iTEN.TV — event coverage, promotional video, automotive content, and post production." />
+      <SEO title="Services" description="Meet iTEN.TV — where vision becomes unforgettable visual storytelling. Production, creative, shows, racing media, and music videos." />
 
       <section
         className="relative h-[45vh] min-h-[360px] flex items-end bg-cover bg-center pt-32"
         style={{ backgroundImage: "url('/track.png')" }}
       >
-        <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/70 to-bg/40" />
+        <div className="absolute inset-0 bg-bg/60" />
         <div className="relative max-w-[1440px] mx-auto px-6 pb-14 w-full">
           <SectionHeading
             eyebrow="What We Do"
             title="OUR"
             highlight="SERVICES"
-            description="From full-episode automotive programming to on-site event coverage and branded promotional content, iTEN.TV brings cinematic production quality to every project. Every service below is backed by a team that lives and breathes automotive culture."
+            description="Meet iTEN.TV — where vision becomes unforgettable visual storytelling. We're selective about the projects we take on, so every one gets the full attention of a team with 30+ years of combined experience."
           />
+          <Button to="/blog" icon={ArrowRight}>Watch Our Show Reel</Button>
         </div>
       </section>
 
@@ -46,7 +47,7 @@ export default function Services() {
       )}
 
       {services.map((s, i) => (
-        <section key={s._id} className={`py-16 ${i % 2 === 1 ? 'bg-elevated' : ''}`}>
+        <section key={s._id} className={`py-16 ${i % 2 === 0 ? 'bg-elevated' : 'bg-bg'}`}>
           <div className="max-w-[1440px] mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
             <div className={i % 2 === 1 ? 'md:order-2' : ''}>
               <span className="text-brand-red font-heading text-sm tracking-[0.2em] uppercase mb-2 block">
@@ -59,7 +60,7 @@ export default function Services() {
             <img
               src={s.image?.url || img(70 + i, 700, 500)}
               alt={s.title}
-              className={`rounded-lg w-full h-[340px] object-cover ${i % 2 === 1 ? 'md:order-1' : ''}`}
+              className={`rounded-lg w-full h-[340px] object-cover border-2 border-brand-red ${i % 2 === 1 ? 'md:order-1' : ''}`}
             />
           </div>
         </section>
