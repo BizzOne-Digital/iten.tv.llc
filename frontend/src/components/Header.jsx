@@ -59,13 +59,13 @@ export default function Header() {
         </nav>
 
         <div className="hidden md:flex items-center gap-4">
-          <a href="https://facebook.com/itentvnews" target="_blank" rel="noreferrer" className="text-gray hover:text-brand-red">
+          <a href="https://www.facebook.com/itentvnews" target="_blank" rel="noreferrer" className="text-gray hover:text-brand-red">
             <Facebook size={18} />
           </a>
-          <a href="#" target="_blank" rel="noreferrer" className="text-gray hover:text-brand-red">
+          <a href="https://www.instagram.com/itentv" target="_blank" rel="noreferrer" className="text-gray hover:text-brand-red">
             <Instagram size={18} />
           </a>
-          <a href="#" target="_blank" rel="noreferrer" className="text-gray hover:text-brand-red">
+          <a href="https://www.youtube.com/@iTENtv" target="_blank" rel="noreferrer" className="text-gray hover:text-brand-red">
             <Youtube size={18} />
           </a>
           <Button to="/contact" variant="primary">

@@ -14,6 +14,10 @@ const Team = lazy(() => import('./pages/Team'));
 const Blog = lazy(() => import('./pages/Blog'));
 const BlogDetail = lazy(() => import('./pages/BlogDetail'));
 const Contact = lazy(() => import('./pages/Contact'));
+const Offers = lazy(() => import('./pages/Offers'));
+const Privacy = lazy(() => import('./pages/Privacy'));
+const Terms = lazy(() => import('./pages/Terms'));
+const BlankTemplate = lazy(() => import('./pages/BlankTemplate'));
 
 const Login = lazy(() => import('./admin/Login'));
 const Dashboard = lazy(() => import('./admin/Dashboard'));
@@ -48,6 +52,10 @@ export default function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogDetail />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/offers" element={<Offers />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/blank-template" element={<BlankTemplate />} />
         </Route>
 
         <Route path="/admin/login" element={<Login />} />
