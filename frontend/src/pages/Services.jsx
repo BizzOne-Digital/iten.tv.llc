@@ -9,38 +9,58 @@ import { img } from '../utils/constants';
 const SAMPLE_VIDEOS = [
   {
     title: 'Motorsport Productions',
-    youtubeId: 'qshIUYNwyIc',
+    youtubeId: 'ZWacwJ994j8',
     desc: 'At iTEN.TV, we love motorsports, from wing sprint cars, flat track motorcycles to go karts. We like to think we are exceptional photographers compared to others and we know how to produce videos, TV shows and films about racing.',
   },
   {
     title: 'Auto Collection Series',
-    youtubeId: 'Ex9xmfVudbw',
+    youtubeId: 'qd7szU0XvE8',
     desc: 'The "Auto Collection Series" is a regular show created by iTEN.TV. It focuses on the local car scenes, without the over top stories on collector cars, bikes and everything else.',
   },
   {
     title: 'Mountain Home Speedway',
-    youtubeId: 'N56iv6ojPrQ',
+    youtubeId: 'Hsvdkn2G08Q',
     desc: "Season Opener race, May 18th, 2024. Check out our small production for this local racetrack. Whatever your budget is, we'll make you look BIG!",
   },
   {
     title: 'Music Video Sampler',
-    youtubeId: '0aFGuArUQ7M',
+    youtubeId: 'qshIUYNwyIc',
     desc: 'There is no "real" flat fee for making a music video. But a decent music video starts around $2K-$3K. Sure you can get one of your friends to do it... but we know how that ends up 95% of the time!',
   },
   {
     title: 'Real Estate Videos',
-    youtubeId: 'niLorSGV1B4',
+    youtubeId: 'Ex9xmfVudbw',
     desc: 'We also get to film really impressive real estate videos. Sure you can do it on your "smartphone" but you don\'t always get the results you want.',
   },
   {
     title: 'Hannah Strumner - Video',
-    youtubeId: 'Fa_u4f13aSk',
+    youtubeId: 'N56iv6ojPrQ',
     desc: 'Recently we had the opportunity to work with a very talented artist from Idaho, Hannah Strumner. This video was shot in Boise, ID and surrounding areas. It also got us an award for "Best Music Video".',
   },
   {
     title: 'X-Static, EPK',
-    youtubeId: 'iXxSbNV3s-Q',
+    youtubeId: '0aFGuArUQ7M',
     desc: "In this day and age, you need more than a flyer to get gigs. Checkout X-Static's digital EPK. Our EPK packs include videos as well as PDF files for emailing or handing them directly to booking agents.",
+  },
+  {
+    title: 'Sneaky Sound System - Video',
+    youtubeId: 'niLorSGV1B4',
+    desc: "Technically this isn't an \"official\" iTEN.TV production, but it's a way cool video that both John and Chris worked on a long time back home in Sydney, Aus. This band hit the charts at #5 and won 2 ARIA awards (inc. Best Video).",
+  },
+  {
+    title: 'Interview Styles',
+    youtubeId: 'gUWH5y08J2s',
+    desc: "Not all interviews have the same effect, if it's shot boring and bland, your clients will loose interest. That's why we like to take a unique approach to your interview, from angles, looks, and bring a feel to the finished product.",
+  },
+  {
+    title: 'Talent Energy Drink',
+    youtubeId: 'Fa_u4f13aSk',
+    desc: "Not all interviews have the same effect, if it's shot boring and bland, your clients will loose interest. That's why we like to take a unique approach to your interview, from angles, looks, and bring a feel to the finished product.",
+  },
+  {
+    title: 'Our Movie Screeners',
+    youtubeId: 'iXxSbNV3s-Q',
+    desc: "A collection of our movies that we have made over the last few years. They feature event races, race series, documentary films etc. If you love cars to motorcycles, you'll love this.",
   },
 ];
 
