@@ -1,4 +1,6 @@
+import { ArrowRight } from 'lucide-react';
 import SectionHeading from '../components/SectionHeading';
+import Button from '../components/Button';
 
 export default function ContactCTA() {
   return (
@@ -29,6 +31,7 @@ export default function ContactCTA() {
             </p>
             <p>Let's bring your next project to life. A job by iTEN.TV is a job worth doing!</p>
           </div>
+          <Button to="/services" icon={ArrowRight} className="mt-8">See Our Services</Button>
         </div>
       </div>
     </section>

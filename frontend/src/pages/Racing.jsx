@@ -53,7 +53,7 @@ export default function Racing() {
             Bottom line? Whether it's dirt or pavement, posters to full video productions, we're all about
             racing and we're always ready to roll!
           </p>
-          <img src="/racing/az_flat2.jpg" alt="AZ Flattrack Racing - Proud sponsor for 2026, iTEN.TV" className="w-full rounded-lg" />
+          <img src="/racing/az_flat2.jpg" alt="AZ Flattrack Racing - Proud sponsor for 2026, iTEN.TV" className="w-full rounded-lg border-2 border-brand-red" />
         </div>
       </section>
 
