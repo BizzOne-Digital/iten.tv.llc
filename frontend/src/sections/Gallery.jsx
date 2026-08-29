@@ -20,27 +20,34 @@ export default function Gallery() {
       <div className="relative max-w-[1440px] mx-auto px-6">
         <SectionHeading eyebrow="Cool Stuff" title="AWESOME" highlight="GALLERIES" align="center" />
         <div className="columns-2 md:columns-4 gap-4 space-y-4">
-          {items.map((item) => (
-            <div
-              key={item._id}
-              className="relative group break-inside-avoid rounded-lg overflow-hidden border-2 border-brand-red"
-            >
-              <img
-                src={item.image?.url}
-                alt={item.title}
-                loading="lazy"
-                className="w-full rounded-lg group-hover:scale-105 transition-transform duration-500"
-              />
-              {(item.title || item.category) && (
-                <div className="absolute inset-0 bg-gradient-to-t from-bg/90 via-bg/0 to-bg/0 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4">
-                  {item.category && (
-                    <span className="text-brand-red text-xs uppercase tracking-wide font-heading">{item.category}</span>
-                  )}
-                  {item.title && <span className="text-white text-sm font-medium">{item.title}</span>}
-                </div>
-              )}
-            </div>
-          ))}
+          {items.map((item) => {
+            const Wrapper = item.link ? 'a' : 'div';
+            const wrapperProps = item.link
+              ? { href: item.link, target: '_blank', rel: 'noreferrer' }
+              : {};
+            return (
+              <Wrapper
+                key={item._id}
+                {...wrapperProps}
+                className="relative group block break-inside-avoid rounded-lg overflow-hidden border-2 border-brand-red"
+              >
+                <img
+                  src={item.image?.url}
+                  alt={item.title}
+                  loading="lazy"
+                  className="w-full rounded-lg group-hover:scale-105 transition-transform duration-500"
+                />
+                {(item.title || item.category) && (
+                  <div className="absolute inset-0 bg-gradient-to-t from-bg/90 via-bg/0 to-bg/0 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-4">
+                    {item.category && (
+                      <span className="text-brand-red text-xs uppercase tracking-wide font-heading">{item.category}</span>
+                    )}
+                    {item.title && <span className="text-white text-sm font-medium">{item.title}</span>}
+                  </div>
+                )}
+              </Wrapper>
+            );
+          })}
         </div>
       </div>
     </section>

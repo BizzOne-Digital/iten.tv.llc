@@ -4,6 +4,7 @@ const galleryItemSchema = new mongoose.Schema(
   {
     title: { type: String, required: true, trim: true },
     category: { type: String, default: 'General', trim: true },
+    link: { type: String, trim: true },
     image: {
       publicId: String,
       url: { type: String, required: true },

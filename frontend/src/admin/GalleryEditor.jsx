@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import api from '../services/api';
 
-const empty = { title: '', category: 'General', order: 0, active: true };
+const empty = { title: '', category: 'General', link: '', order: 0, active: true };
 
 export default function GalleryEditor() {
   const { id } = useParams();
@@ -20,6 +20,7 @@ export default function GalleryEditor() {
       setForm({
         title: data.title || '',
         category: data.category || 'General',
+        link: data.link || '',
         order: data.order || 0,
         active: data.active,
       });
@@ -79,6 +80,15 @@ export default function GalleryEditor() {
             value={form.category}
             onChange={(e) => setForm((f) => ({ ...f, category: e.target.value }))}
             placeholder="e.g. Racing, Muscle Cars, Motorcycles, Production"
+            className="w-full bg-bg border border-white/10 rounded px-4 py-2.5 text-white outline-none focus:border-brand-red"
+          />
+        </div>
+        <div>
+          <label className="text-sm text-gray block mb-1">Link (optional)</label>
+          <input
+            value={form.link}
+            onChange={(e) => setForm((f) => ({ ...f, link: e.target.value }))}
+            placeholder="https://example.com/where-this-image-should-link"
             className="w-full bg-bg border border-white/10 rounded px-4 py-2.5 text-white outline-none focus:border-brand-red"
           />
         </div>

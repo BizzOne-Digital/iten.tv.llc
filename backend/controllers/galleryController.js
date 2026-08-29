@@ -18,7 +18,7 @@ const getGalleryItemById = asyncHandler(async (req, res) => {
 });
 
 const createGalleryItem = asyncHandler(async (req, res) => {
-  const { title, category, order, active } = req.body;
+  const { title, category, link, order, active } = req.body;
   if (!title) {
     res.status(400);
     throw new Error('Title is required');
@@ -31,6 +31,7 @@ const createGalleryItem = asyncHandler(async (req, res) => {
   const item = await GalleryItem.create({
     title,
     category: category || 'General',
+    link: link || undefined,
     image: { publicId: result.public_id, url: result.secure_url },
     order: order || 0,
     active: active === undefined ? true : active === 'true' || active === true,
@@ -44,9 +45,10 @@ const updateGalleryItem = asyncHandler(async (req, res) => {
     res.status(404);
     throw new Error('Gallery item not found');
   }
-  const { title, category, order, active } = req.body;
+  const { title, category, link, order, active } = req.body;
   if (title !== undefined) item.title = title;
   if (category !== undefined) item.category = category;
+  if (link !== undefined) item.link = link;
   if (order !== undefined) item.order = order;
   if (active !== undefined) item.active = active === 'true' || active === true;
   if (req.file) {
