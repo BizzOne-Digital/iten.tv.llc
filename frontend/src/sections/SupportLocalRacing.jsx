@@ -37,7 +37,7 @@ export default function SupportLocalRacing() {
             end of the day, everyone loves rooting for a local hero.
           </p>
           <p>From Modifieds and Sprint Cars to Flat Track Motorcycle Racing, ATVs, Go-Karts and more — this is where local racing lives.</p>
-          <Button to="/contact">Partner With Us</Button>
+          <Button href="https://www.iten.tv/contact.html">Partner With Us</Button>
         </div>
       </div>
     </section>

@@ -68,7 +68,7 @@ export default function Header() {
           <a href="https://www.youtube.com/@iTENtv" target="_blank" rel="noreferrer" className="text-gray hover:text-brand-red">
             <Youtube size={18} />
           </a>
-          <Button to="/contact" variant="primary">
+          <Button href="https://www.iten.tv/contact.html" variant="primary">
             Contact Us
           </Button>
         </div>
@@ -93,7 +93,7 @@ export default function Header() {
               {link.label}
             </NavLink>
           ))}
-          <Button to="/contact" variant="primary" onClick={() => setOpen(false)}>
+          <Button href="https://www.iten.tv/contact.html" variant="primary" onClick={() => setOpen(false)}>
             Contact Us
           </Button>
         </div>

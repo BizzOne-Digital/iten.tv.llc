@@ -140,7 +140,7 @@ export default function Services() {
               </span>
               <h2 className="text-3xl md:text-4xl font-heading font-bold uppercase text-white mb-4">{s.title}</h2>
               <p className="text-gray mb-6 whitespace-pre-line">{s.description}</p>
-              <Button to="/contact" icon={ArrowRight}>Inquire About This</Button>
+              <Button href="https://www.iten.tv/contact.html" icon={ArrowRight}>Inquire About This</Button>
             </div>
             <img
               src={s.image?.url || img(70 + i, 700, 500)}

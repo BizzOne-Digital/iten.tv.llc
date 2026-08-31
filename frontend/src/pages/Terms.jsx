@@ -70,7 +70,7 @@ export default function Terms() {
           <h2 className="font-heading uppercase text-white text-lg pt-4">Contact Us</h2>
           <p>
             Questions about these Terms can be sent to{' '}
-            <a href="mailto:info@iten.tv" className="text-brand-red hover:underline">info@iten.tv</a>.
+            <a href="https://www.iten.tv/contact.html" className="text-brand-red hover:underline">info@iten.tv</a>.
           </p>
         </div>
       </section>

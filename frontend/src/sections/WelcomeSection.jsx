@@ -95,7 +95,7 @@ export default function WelcomeSection() {
         transition={{ duration: 0.7, delay: 0.3 }}
         className="flex flex-wrap gap-4 mt-14 justify-center"
       >
-        <Button to="/blog" icon={Play}>Watch Now</Button>
+        <Button to="/watch" icon={Play}>Watch Now</Button>
         <Button to="/watch" variant="outline" icon={Compass}>Explore Our Shows</Button>
       </motion.div>
     </section>

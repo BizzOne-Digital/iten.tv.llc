@@ -32,7 +32,10 @@ export default function Footer() {
         <div>
           <h4 className="font-heading uppercase text-white text-sm tracking-wide mb-4">Contact</h4>
           <ul className="space-y-2 text-sm text-gray mb-6">
-            <li className="flex items-center gap-2"><Mail size={14} /> info@iten.tv</li>
+            <li className="flex items-center gap-2">
+              <Mail size={14} />
+              <a href="https://www.iten.tv/contact.html" className="hover:text-brand-red">info@iten.tv</a>
+            </li>
             <li className="flex items-center gap-2"><Phone size={14} /> +1 520-757-3019</li>
           </ul>
           <h4 className="font-heading uppercase text-white text-sm tracking-wide mb-4">Follow</h4>
