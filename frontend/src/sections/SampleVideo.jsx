@@ -1,6 +1,6 @@
 import SectionHeading from '../components/SectionHeading';
 
-const YOUTUBE_ID = 'gmdqyOQe3zY';
+const YOUTUBE_ID = '1m1Jv7nnrAU';
 
 export default function SampleVideo() {
   return (
