@@ -119,17 +119,11 @@ export default function Services() {
             eyebrow="What We Do"
             title="OUR"
             highlight="SERVICES"
-            description="Meet iTEN.TV — where vision becomes unforgettable visual storytelling. We're selective about the projects we take on, so every one gets the full attention of a team with 30+ years of combined experience."
+            description="Meet iTEN.TV — where vision becomes unforgettable visual storytelling. We're selective about the projects we take on, so every one gets the full attention of a team with 70+ years of combined experience."
           />
           <Button to="#show-reel" icon={ArrowRight}>Watch Our Show Reel</Button>
         </div>
       </section>
-
-      {!loading && services.length === 0 && (
-        <section className="pb-16 max-w-[1440px] mx-auto px-6">
-          <p className="text-gray text-sm">Services are being updated — check back soon, or contact us directly.</p>
-        </section>
-      )}
 
       {services.map((s, i) => (
         <section key={s._id} className={`py-16 ${i % 2 === 0 ? 'bg-elevated' : 'bg-bg'}`}>
