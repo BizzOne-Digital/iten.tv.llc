@@ -66,19 +66,7 @@ export default function About() {
       {/* Intro + Why Choose Us */}
       <section className="py-24 bg-bg">
         <div className="max-w-4xl mx-auto px-6 text-center space-y-6">
-          <p className="text-gray">
-            Are you searching for top-tier video, and design production services without breaking the bank?
-            Look no further! With over 30 years of experience in the film, advertising, and music industries,
-            we are here to deliver the exceptional quality you deserve.
-          </p>
-          <p className="text-gray">
-            Imagine working with industry veterans who have successfully executed national and international
-            campaigns. Our team comprises of former agency professionals who know how to bring your vision to
-            life, whether you need a stunning promotional video, a captivating TV commercial, an engaging music
-            video, or seamless live streaming services.
-          </p>
-
-          <div className="pt-6">
+          <div>
             <SectionHeading eyebrow="Why Choose Us?" title="QUALITY," highlight="NOT QUANTITY" align="center" />
             <p className="text-gray">
               We're not just hobbyists with cameras; we're seasoned experts who have traveled the globe crafting

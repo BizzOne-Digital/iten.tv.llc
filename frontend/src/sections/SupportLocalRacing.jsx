@@ -36,7 +36,7 @@ export default function SupportLocalRacing() {
             a sense of community, pride, and belonging that larger events simply can't replicate. Because at the
             end of the day, everyone loves rooting for a local hero.
           </p>
-          <p>Modifieds, Sprint Cars, Flat Track Motorcycle racing, ATV's, Go Karts and more.</p>
+          <p>From Modifieds and Sprint Cars to Flat Track Motorcycle Racing, ATVs, Go-Karts and more — this is where local racing lives.</p>
           <Button to="/contact">Partner With Us</Button>
         </div>
       </div>

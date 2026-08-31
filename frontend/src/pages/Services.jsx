@@ -55,7 +55,7 @@ const SAMPLE_VIDEOS = [
   {
     title: 'Talent Energy Drink',
     youtubeId: 'Fa_u4f13aSk',
-    desc: "Not all interviews have the same effect, if it's shot boring and bland, your clients will loose interest. That's why we like to take a unique approach to your interview, from angles, looks, and bring a feel to the finished product.",
+    desc: "Talent Energy Drink sits down with a true legend of the sport — motorcycle builder and racer Richard Pollock.\n\nFor decades, Richard has been building machines for global collectors and champion racers alike, turning raw metal into legendary rides that live on the track and in garages around the world. In this sit-down, Richard pulls back the curtain on a life built around two wheels — the passion, the grind, and the craftsmanship that's earned him a name in the industry.\n\nA native of Idaho, Richard isn't slowing down. He's still out there racing, still building, still doing what he's always done — living it, not just talking about it.",
   },
   {
     title: 'Our Movie Screeners',
@@ -175,7 +175,7 @@ export default function Services() {
                     loading="lazy"
                   />
                 </div>
-                <p className="text-gray text-sm">{v.desc}</p>
+                <p className="text-gray text-sm whitespace-pre-line">{v.desc}</p>
               </div>
             ))}
           </div>

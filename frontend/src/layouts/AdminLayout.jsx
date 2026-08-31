@@ -10,6 +10,7 @@ import {
   Video,
   LogOut,
   GalleryHorizontal,
+  Clapperboard,
   Menu,
   X,
 } from 'lucide-react';
@@ -22,6 +23,7 @@ const LINKS = [
   { to: '/admin/services', label: 'Services', icon: Wrench },
   { to: '/admin/media', label: 'Media', icon: ImageIcon },
   { to: '/admin/gallery', label: 'Gallery', icon: GalleryHorizontal },
+  { to: '/admin/featured-shows', label: 'Featured Shows', icon: Clapperboard },
   { to: '/admin/messages', label: 'Messages', icon: Mail },
   { to: '/admin/hero', label: 'Hero Settings', icon: Video },
 ];

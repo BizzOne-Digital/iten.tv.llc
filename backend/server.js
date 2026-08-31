@@ -18,6 +18,7 @@ const mediaRoutes = require('./routes/mediaRoutes');
 const settingsRoutes = require('./routes/settingsRoutes');
 const heroRoutes = require('./routes/heroRoutes');
 const galleryRoutes = require('./routes/galleryRoutes');
+const featuredShowRoutes = require('./routes/featuredShowRoutes');
 
 connectDB();
 
@@ -66,6 +67,7 @@ app.use('/api/media', mediaRoutes);
 app.use('/api/settings', settingsRoutes);
 app.use('/api/hero', heroRoutes);
 app.use('/api/gallery', galleryRoutes);
+app.use('/api/featured-shows', featuredShowRoutes);
 
 app.use(notFound);
 app.use(errorHandler);

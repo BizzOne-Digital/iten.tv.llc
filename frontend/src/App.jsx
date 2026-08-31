@@ -32,6 +32,8 @@ const Media = lazy(() => import('./admin/Media'));
 const Messages = lazy(() => import('./admin/Messages'));
 const GalleryList = lazy(() => import('./admin/GalleryList'));
 const GalleryEditor = lazy(() => import('./admin/GalleryEditor'));
+const FeaturedShowsList = lazy(() => import('./admin/FeaturedShowsList'));
+const FeaturedShowsEditor = lazy(() => import('./admin/FeaturedShowsEditor'));
 
 const Loader = () => (
   <div className="min-h-screen flex items-center justify-center bg-bg text-gray">Loading...</div>
@@ -83,6 +85,9 @@ export default function App() {
           <Route path="gallery" element={<GalleryList />} />
           <Route path="gallery/new" element={<GalleryEditor />} />
           <Route path="gallery/:id" element={<GalleryEditor />} />
+          <Route path="featured-shows" element={<FeaturedShowsList />} />
+          <Route path="featured-shows/new" element={<FeaturedShowsEditor />} />
+          <Route path="featured-shows/:id" element={<FeaturedShowsEditor />} />
         </Route>
 
         <Route
