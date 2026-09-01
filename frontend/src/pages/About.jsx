@@ -118,13 +118,13 @@ export default function About() {
               <div className="bg-brand-red text-white text-center font-heading uppercase text-lg py-2">Fun Fact</div>
               <div className="bg-card border-2 border-t-0 border-brand-red rounded-b-lg p-5 space-y-3 text-gray">
                 <p>
-                  Growing up in a family of racers (that's another story) John originally wanted to be a fighter
+                  Growing up in a family of racers (which is another story), John originally wanted to be a fighter
                   pilot in the Air Force, but also wanted to be a Rock Star and a MotoGP racer.
                 </p>
                 <p>
-                  John soon decided he would follow his dream of being a "Rock Star" which was short lived, and
-                  became a sound engineer. Then eventually turned to film. The story is longer than the film
-                  "Titanic".
+                  John soon decided he would follow his dream of being a "Rock Star," which was short-lived, and
+                  became a sound engineer. He then eventually turned to film. The story is longer than the film
+                  "Titanic."
                 </p>
                 <p>
                   John decided he needed to learn his craft. After spending many years at AFTRS (Australian Film
@@ -183,12 +183,12 @@ export default function About() {
               <div className="bg-brand-red text-white text-center font-heading uppercase text-lg py-2">1st HD Concert</div>
               <div className="bg-card border-2 border-t-0 border-brand-red rounded-b-lg p-5 space-y-3 text-gray">
                 <p>
-                  Back in 2010 John met Valerie at the meeting of a music video shoot. John was to film and
+                  Back in 2010, John met Valerie at a music video shoot. John was to film and
                   Valerie was to play the lead role (no, not shaking her butt on the hood of Whitesnake's car).
                 </p>
                 <p>
-                  The first meeting turned out to be an amazing interaction and discovered they both shared the
-                  same passion of music. Together they ran an internet company that was "LIVE STREAMING" shows
+                  The first meeting turned out to be an amazing interaction, and they discovered they both shared the
+                  same passion for music. Together they ran an internet company that was "LIVE STREAMING" shows
                   in Las Vegas. They were doing things way before YouTube and Facebook were streaming live video.
                 </p>
                 <p>

@@ -6,7 +6,7 @@ import api from '../services/api';
 
 const STORY_PARAGRAPHS = [
   "Since 2018, we've been doing the opposite of everything the big guys do. No recycled storylines. No \"watch this guy's million-dollar shop build a car you'll never afford.\" We got tired of that before we even started, so we skipped it entirely.",
-  'Instead, we went straight to the source. We sat down with racers, wrenchers, weekend warriors, and the everyday gearheads who actually live for this, asked one simple question: "What do you actually want to see?"',
+  'Instead, we went straight to the source. We sat down with racers, wrenchers, weekend warriors, and the everyday gearheads who actually live for this, and asked one simple question: "What do you actually want to see?"',
   'Then we built it.',
   "Today, iTEN.TV is a growing lineup of grassroots racing and original shows built for the real car and bike community — the people turning wrenches in their own garage, not a million-dollar shop. Raw racing. Real builds. Real stories from real enthusiasts, told the way they deserve to be told.",
   "And here's the difference: we're run by people who've actually done this. Racers, builders, and industry pros who've turned their own wrenches and taken their own cars and bikes to the line — not TV execs guessing what \"car culture\" looks like.",
@@ -70,6 +70,9 @@ export default function WelcomeSection() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="text-left space-y-5"
         >
+          <p className="text-brand-red font-heading uppercase tracking-wide text-xl md:text-2xl mb-2">
+            Your New Home For Automotive / Racing Videos &amp; Shows
+          </p>
           {STORY_PARAGRAPHS.map((p, i) => (
             <p key={i} className={`text-gray ${i === 2 || i === 6 ? 'text-white font-heading uppercase tracking-wide text-lg' : ''}`}>
               {p}

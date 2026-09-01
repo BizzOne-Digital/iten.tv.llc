@@ -44,7 +44,7 @@ export default function Racing() {
             Over the years, we've been lucky enough to team up with some of the most iconic race tracks and
             event series across the country! From crafting high-energy promotional videos to designing
             eye-catching posters, and even serving as exclusive photographers for some of the coolest venues,
-            we've been in. But that's not all, our passion for racing extends to working with incredible race
+            we've been in the thick of it. But that's not all — our passion for racing extends to working with incredible race
             teams and up-and-coming drivers. We've helped racers put together killer sponsorship proposals,
             design custom, out-of-the-box hero cards, and capture every moment with personal, on-the-go
             photography. Plus, we love creating dynamic videos that light up their social media feeds.
@@ -89,7 +89,7 @@ export default function Racing() {
         <div className="max-w-4xl mx-auto px-6 text-center">
           <p className="text-gray mb-8">
             Did you know? With any of the pictures we post from events, you are free to use them on your social
-            media pages. We just ask you NOT to remove the water marks. If you like them so much and you'd like
+            media pages. We just ask you NOT to remove the watermarks. If you like them so much and you'd like
             to buy us a coffee click the link below or even shoot us an email and buy some pics.
           </p>
           <img src="/racing/racing_mon.jpg" alt="iTEN.TV film crew at the racetrack" className="w-full rounded-lg border-2 border-brand-red mb-4" />

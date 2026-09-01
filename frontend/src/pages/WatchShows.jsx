@@ -116,7 +116,7 @@ export default function WatchShows() {
             We're constantly uploading new shows, but in the meantime these are some of the shows we feature.
           </p>
           <p className="text-yellow-400 font-heading text-xl uppercase mb-2">NOW $19.95 Normally $35.90</p>
-          <p className="text-green-400 font-heading uppercase mb-6">Hurry... offer expires Aug 31st, 2026</p>
+          <p className="text-green-400 font-heading uppercase mb-6">Hurry... offer expires Sept 30th, 2026</p>
           <p className="text-gray text-sm mb-8">
             You can currently watch us on ROKU & AMAZON Firestick... You will also be able to watch on your phone
             once the "App" is released. You will not be charged again.
@@ -164,10 +164,10 @@ export default function WatchShows() {
           </p>
           <p className="text-white font-heading uppercase tracking-wide">Miss the Chaos?</p>
           <p>
-            If you're craving the wild, unpredictable, edge-of-your-seat stuff — tell us. We're always looking
+            If you're craving the wild, unpredictable, edge-of-your-seat stuff, then tell us. We're always looking
             for the next show to build for you.
           </p>
-          <p className="text-white font-heading uppercase tracking-wide">Eight Years In, and laying it down the way you like it.</p>
+          <p className="text-white font-heading uppercase tracking-wide">Eight years in, and we're just getting started.</p>
           <p>
             We've been doing this for eight years, and we're not slowing down — more content, more coverage,
             more tracks. iTEN.TV is expanding, and we want you along for the ride.
