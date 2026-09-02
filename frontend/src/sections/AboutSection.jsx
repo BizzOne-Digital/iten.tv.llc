@@ -31,7 +31,7 @@ export default function AboutSection() {
           </div>
         </div>
         <div className="relative">
-          <img src="/about.png" alt="iTEN.TV production" className="rounded-lg w-full h-[480px] object-cover border-2 border-brand-red" />
+          <img src="/finalhuh.jpg" alt="iTEN.TV production" className="rounded-lg w-full h-[480px] object-cover border-2 border-brand-red" />
         </div>
       </div>
     </section>
