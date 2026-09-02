@@ -35,7 +35,7 @@ const createSubmission = asyncHandler(async (req, res) => {
     console.error('Email send failed:', err.message);
   }
 
-  res.status(201).json({ message: 'Thank you — your message has been received.', submission });
+  res.status(201).json({ message: 'Thank you - your message has been received.', submission });
 });
 
 // GET /api/contact (admin)

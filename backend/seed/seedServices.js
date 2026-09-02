@@ -32,7 +32,7 @@ const SERVICES = [
     title: 'Racing Media',
     slug: 'racing-media',
     description:
-      'From full TV productions to hero cards — high-energy promotional videos, event photography, sponsorship proposals, and social media content for race teams and drivers, dirt or pavement.',
+      'From full TV productions to hero cards - high-energy promotional videos, event photography, sponsorship proposals, and social media content for race teams and drivers, dirt or pavement.',
     image: { url: '/racingmedia.jpg' },
     order: 4,
   },

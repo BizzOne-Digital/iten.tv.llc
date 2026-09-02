@@ -4,7 +4,7 @@ import SectionHeading from '../components/SectionHeading';
 export default function Bands() {
   return (
     <>
-      <SEO title="Bands" description="Music videos and EPKs from iTEN.TV — bands we've worked with, and how we help you get booked." />
+      <SEO title="Bands" description="Music videos and EPKs from iTEN.TV - bands we've worked with, and how we help you get booked." />
 
       <section
         className="relative h-[45vh] min-h-[360px] flex items-end bg-cover bg-center pt-32"
@@ -43,7 +43,7 @@ export default function Bands() {
                 </p>
                 <p>
                   But if you're envisioning green screens, special effects, or custom set designs, your budget
-                  will need to expand. And don't forget the finer details — permits, a hair and makeup artist,
+                  will need to expand. And don't forget the finer details - permits, a hair and makeup artist,
                   additional equipment, or even luxury items like a mansion, vintage car, or private jet (yes,
                   we've done that!).
                 </p>
@@ -61,7 +61,7 @@ export default function Bands() {
               <div className="space-y-5 text-gray text-sm md:text-base">
                 <p>
                   In addition to music videos, creating an EPK (Electronic Press Kit) is a smart move for
-                  getting gigs. It's a simple, yet powerful tool — usually a couple of pages with your bio,
+                  getting gigs. It's a simple, yet powerful tool - usually a couple of pages with your bio,
                   photos, and links to your best work. Many bands opt for a printed version and a short video
                   that captures not just your music, but your vibe and personality.
                 </p>

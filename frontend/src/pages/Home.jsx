@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <SEO
         title="Home"
-        description="iTEN.TV — automotive and racing entertainment network streaming on Roku and Amazon Fire TV."
+        description="iTEN.TV - automotive and racing entertainment network streaming on Roku and Amazon Fire TV."
       />
       <div className="divide-y divide-white/10">
         <Hero />

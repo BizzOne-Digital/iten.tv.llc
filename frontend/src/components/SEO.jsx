@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 
 export default function SEO({ title, description, image }) {
-  const fullTitle = title ? `${title} | iTEN.TV` : 'iTEN.TV, LLC — Powered by Passion. Powered by Stories.';
+  const fullTitle = title ? `${title} | iTEN.TV` : 'iTEN.TV, LLC - Powered by Passion. Powered by Stories.';
   return (
     <Helmet>
       <title>{fullTitle}</title>

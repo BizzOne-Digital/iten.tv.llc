@@ -42,9 +42,9 @@ const FILMING_HIGHLIGHTS = [
   'Moulin Rouge (cam tech)',
   'Hallmark (TV Commercial)',
   '2000 Sydney Olympics (swimming)',
-  'Kid Rock — Forever (Music Video)',
-  'Missy Elliot — Get Yer Freak On (Music Video)',
-  'Delta Goodrem — In This Life (Music Video)',
+  'Kid Rock - Forever (Music Video)',
+  'Missy Elliot - Get Yer Freak On (Music Video)',
+  'Delta Goodrem - In This Life (Music Video)',
   "+100's more",
 ];
 
@@ -71,7 +71,7 @@ export default function About() {
             <p className="text-gray">
               We're not just hobbyists with cameras; we're seasoned experts who have traveled the globe crafting
               compelling stories and visual masterpieces. We're passionate about what we do and are always
-              focused on quality not quantity — providing high-quality services without the hefty price tag. We
+              focused on quality not quantity - providing high-quality services without the hefty price tag. We
               believe that no one should feel ripped off for outstanding work.
             </p>
             <p className="text-gray mt-4">
@@ -193,7 +193,7 @@ export default function About() {
                 </p>
                 <p>
                   Then in 2011 John had a bright idea to be the first to stream a live concert in full HD (Rock
-                  n' Roll Invasion — Area 51) from the "official" front gates of Area 51. The event featured two
+                  n' Roll Invasion - Area 51) from the "official" front gates of Area 51. The event featured two
                   live bands from Las Vegas on a stage and then one band on the back of a trailer in front of the
                   gates of Area 51. They did this in HD and over dial-up internet and wifi (again, that's
                   another story on its own). They pulled off the impossible and reached 7.5 million viewers

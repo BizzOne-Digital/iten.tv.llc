@@ -4,7 +4,7 @@ import SectionHeading from '../components/SectionHeading';
 export default function Privacy() {
   return (
     <>
-      <SEO title="Privacy Policy" description="iTEN.TV privacy policy — how we collect, use, and protect your information." />
+      <SEO title="Privacy Policy" description="iTEN.TV privacy policy - how we collect, use, and protect your information." />
 
       <section
         className="relative h-[45vh] min-h-[360px] flex items-end bg-cover bg-center pt-32"

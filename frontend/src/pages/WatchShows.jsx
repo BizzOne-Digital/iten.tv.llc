@@ -129,11 +129,11 @@ export default function WatchShows() {
       <section className="py-24 bg-elevated">
         <div className="max-w-3xl mx-auto px-6 text-center space-y-6 text-gray">
           <h2 className="font-heading italic text-2xl md:text-3xl text-white mb-4">
-            iTEN.TV — Real Racing. Real Grassroots.
+            iTEN.TV - Real Racing. Real Grassroots.
           </h2>
           <p>
             iTEN.TV isn't your typical motorsports channel. You won't find NASCAR, NHRA, or World of Outlaws
-            here — you'll find something better: the racing happening right now at the track in the back of your
+            here - you'll find something better: the racing happening right now at the track in the back of your
             town, the one most people forget about.
           </p>
           <p>
@@ -149,14 +149,14 @@ export default function WatchShows() {
           <p className="text-white font-heading uppercase tracking-wide">Car Shows, The Way You Actually Want Them.</p>
           <p>
             We've heard you loud and clear: sometimes you just want to watch the cars. No over-the-top
-            presenters, no manufactured drama — just genuine coverage of the machines and the people behind
+            presenters, no manufactured drama - just genuine coverage of the machines and the people behind
             them. We still bring interviews and put on a real show, but we never lose sight of what you came for.
           </p>
           <p className="text-white font-heading uppercase tracking-wide">"But YouTube Is Free..."</p>
           <p>
             Sure, it is. But we're not shaky handheld footage from the stands with someone's kid screaming in
             the background. Our crew has worked for major networks, and we bring that same level of production
-            value to every race we cover — without the network price tag.
+            value to every race we cover - without the network price tag.
           </p>
           <p>
             For $2.99/month, you get professional, reliable coverage of the racing you'd otherwise miss
@@ -169,11 +169,11 @@ export default function WatchShows() {
           </p>
           <p className="text-white font-heading uppercase tracking-wide">Eight years in, and we're just getting started.</p>
           <p>
-            We've been doing this for eight years, and we're not slowing down — more content, more coverage,
+            We've been doing this for eight years, and we're not slowing down - more content, more coverage,
             more tracks. iTEN.TV is expanding, and we want you along for the ride.
           </p>
           <p className="text-white font-heading uppercase tracking-wide">Support the people who support the racers.</p>
-          <p className="text-brand-red font-heading uppercase text-lg">iTEN.TV — The Racers' Film Crew</p>
+          <p className="text-brand-red font-heading uppercase text-lg">iTEN.TV - The Racers' Film Crew</p>
         </div>
       </section>
 

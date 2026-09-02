@@ -26,7 +26,7 @@ const brandWrapper = (title, bodyHtml) => `
     </tr>
     <tr>
       <td style="padding:16px 24px;background:#0a0a0a;color:#A5A5A5;font-size:12px;">
-        iTEN.TV, LLC — info@iten.tv — +1 520-757-3019 — iten.tv
+        iTEN.TV, LLC - info@iten.tv - +1 520-757-3019 - iten.tv
       </td>
     </tr>
   </table>
@@ -48,7 +48,7 @@ const sendContactNotification = async (submission) => {
     from: `"iTEN.TV Website" <${process.env.SMTP_USER}>`,
     to: process.env.CONTACT_RECEIVER,
     replyTo: submission.email,
-    subject: `New Inquiry: ${submission.projectType} — ${submission.name}`,
+    subject: `New Inquiry: ${submission.projectType} - ${submission.name}`,
     html,
   });
 };
@@ -60,12 +60,12 @@ const sendContactConfirmation = async (submission) => {
      <p>We've received your message and a member of the iTEN.TV team will get back to you shortly.</p>
      <p><strong>Your message:</strong><br/>${submission.message}</p>
      <p>In the meantime, follow our latest content at <a href="https://facebook.com/itentvnews" style="color:#FF1616;">facebook.com/itentvnews</a>.</p>
-     <p>— The iTEN.TV Team</p>`
+     <p>- The iTEN.TV Team</p>`
   );
   return transporter.sendMail({
     from: `"iTEN.TV" <${process.env.SMTP_USER}>`,
     to: submission.email,
-    subject: 'We received your message — iTEN.TV',
+    subject: 'We received your message - iTEN.TV',
     html,
   });
 };

@@ -10,16 +10,16 @@ export default function AboutSection() {
             <p>
               iTEN.TV was founded by racers, builders, and storytellers who looked at the automotive
               entertainment world and thought: <em>this isn't it.</em> So we built the network we always wished
-              existed — one made by people who've actually lived this life.
+              existed - one made by people who've actually lived this life.
             </p>
             <p>
               We're racers who've stood on the line with our hearts pounding. Builders who've skinned our
               knuckles at 2am chasing a deadline for race day. Storytellers who know that the best stories
-              aren't found in a boardroom — they're found in the garage, the pit lane, and the local track
+              aren't found in a boardroom - they're found in the garage, the pit lane, and the local track
               where it all happens.
             </p>
             <p>
-              From street culture to the professional circuit, we've got it all — and we capture it right.
+              From street culture to the professional circuit, we've got it all - and we capture it right.
               Cinematic quality. Authentic voices. No fluff, no filters, no fake drama. Just the real people,
               real machines, and real passion that make this world impossible to look away from.
             </p>

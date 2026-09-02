@@ -53,7 +53,7 @@ export default function Dashboard() {
           {recentMessages.map((m) => (
             <div key={m._id} className="flex justify-between items-center border-b border-white/5 pb-3">
               <div>
-                <p className="text-white text-sm">{m.name} <span className="text-gray">— {m.email}</span></p>
+                <p className="text-white text-sm">{m.name} <span className="text-gray">- {m.email}</span></p>
                 <p className="text-gray text-xs line-clamp-1">{m.message}</p>
               </div>
               <span className="text-xs px-2 py-1 rounded bg-brand-red/10 text-brand-red">{m.status}</span>

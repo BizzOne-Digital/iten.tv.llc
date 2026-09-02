@@ -94,7 +94,7 @@ export default function Contact() {
       <section className="pt-40 pb-24 max-w-xl mx-auto px-6 text-center">
         <CheckCircle size={48} className="text-brand-red mx-auto mb-4" />
         <h1 className="text-2xl font-heading uppercase text-white mb-2">Message Sent</h1>
-        <p className="text-gray mb-6">Thanks for reaching out — our team will get back to you shortly.</p>
+        <p className="text-gray mb-6">Thanks for reaching out - our team will get back to you shortly.</p>
         <Button onClick={() => setSuccess(false)}>Send Another Message</Button>
       </section>
     );

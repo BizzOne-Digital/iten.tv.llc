@@ -8,10 +8,10 @@ const STORY_PARAGRAPHS = [
   "Since 2018, we've been doing the opposite of everything the big guys do. No recycled storylines. No \"watch this guy's million-dollar shop build a car you'll never afford.\" We got tired of that before we even started, so we skipped it entirely.",
   'Instead, we went straight to the source. We sat down with racers, wrenchers, weekend warriors, and the everyday gearheads who actually live for this, and asked one simple question: "What do you actually want to see?"',
   'Then we built it.',
-  "Today, iTEN.TV is a growing lineup of grassroots racing and original shows built for the real car and bike community — the people turning wrenches in their own garage, not a million-dollar shop. Raw racing. Real builds. Real stories from real enthusiasts, told the way they deserve to be told.",
-  "And here's the difference: we're run by people who've actually done this. Racers, builders, and industry pros who've turned their own wrenches and taken their own cars and bikes to the line — not TV execs guessing what \"car culture\" looks like.",
+  "Today, iTEN.TV is a growing lineup of grassroots racing and original shows built for the real car and bike community - the people turning wrenches in their own garage, not a million-dollar shop. Raw racing. Real builds. Real stories from real enthusiasts, told the way they deserve to be told.",
+  "And here's the difference: we're run by people who've actually done this. Racers, builders, and industry pros who've turned their own wrenches and taken their own cars and bikes to the line - not TV execs guessing what \"car culture\" looks like.",
   "Raw doesn't mean rough, though. We come from real film and TV backgrounds, so every episode is shot with the same craft you'd expect from the big leagues, just pointed at the people the big leagues ignore.",
-  'Catch us now on Roku and Amazon Firestick — with smartphones coming soon.',
+  'Catch us now on Roku and Amazon Firestick - with smartphones coming soon.',
   "We don't chase trends. We chase the builds, the racers, and the stories that actually matter to you. Come see what everyday car culture looks like when it's done right.",
 ];
 

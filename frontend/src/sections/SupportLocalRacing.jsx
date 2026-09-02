@@ -21,7 +21,7 @@ export default function SupportLocalRacing() {
         <div className="space-y-5 text-gray text-sm md:text-base">
           <p>
             While many networks focus their attention on the biggest names and highest-profile racing events,
-            iTEN.TV is dedicated to the heart and soul of the sport — local racing. After all, every racing
+            iTEN.TV is dedicated to the heart and soul of the sport - local racing. After all, every racing
             legend starts somewhere, and local tracks are where champions are born. iTEN.TV shines a spotlight
             on the racers, teams, and communities that keep the sport alive.
           </p>
@@ -36,7 +36,7 @@ export default function SupportLocalRacing() {
             a sense of community, pride, and belonging that larger events simply can't replicate. Because at the
             end of the day, everyone loves rooting for a local hero.
           </p>
-          <p>From Modifieds and Sprint Cars to Flat Track Motorcycle Racing, ATVs, Go-Karts and more — this is where local racing lives.</p>
+          <p>From Modifieds and Sprint Cars to Flat Track Motorcycle Racing, ATVs, Go-Karts and more - this is where local racing lives.</p>
           <Button href="https://www.iten.tv/contact.html">Partner With Us</Button>
         </div>
       </div>

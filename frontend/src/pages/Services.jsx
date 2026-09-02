@@ -55,7 +55,7 @@ const SAMPLE_VIDEOS = [
   {
     title: 'Talent Energy Drink',
     youtubeId: 'Fa_u4f13aSk',
-    desc: "Talent Energy Drink sits down with a true legend of the sport — motorcycle builder and racer Richard Pollock.\n\nFor decades, Richard has been building machines for global collectors and champion racers alike, turning raw metal into legendary rides that live on the track and in garages around the world. In this sit-down, Richard pulls back the curtain on a life built around two wheels — the passion, the grind, and the craftsmanship that's earned him a name in the industry.\n\nA native of Idaho, Richard isn't slowing down. He's still out there racing, still building, still doing what he's always done — living it, not just talking about it.",
+    desc: "Talent Energy Drink sits down with a true legend of the sport - motorcycle builder and racer Richard Pollock.\n\nFor decades, Richard has been building machines for global collectors and champion racers alike, turning raw metal into legendary rides that live on the track and in garages around the world. In this sit-down, Richard pulls back the curtain on a life built around two wheels - the passion, the grind, and the craftsmanship that's earned him a name in the industry.\n\nA native of Idaho, Richard isn't slowing down. He's still out there racing, still building, still doing what he's always done - living it, not just talking about it.",
   },
   {
     title: 'Our Movie Screeners',
@@ -107,7 +107,7 @@ export default function Services() {
 
   return (
     <>
-      <SEO title="Services" description="Meet iTEN.TV — where vision becomes unforgettable visual storytelling. Production, creative, shows, racing media, and music videos." />
+      <SEO title="Services" description="Meet iTEN.TV - where vision becomes unforgettable visual storytelling. Production, creative, shows, racing media, and music videos." />
 
       <section
         className="relative h-[45vh] min-h-[360px] flex items-end bg-cover bg-center pt-32"
@@ -119,7 +119,7 @@ export default function Services() {
             eyebrow="What We Do"
             title="OUR"
             highlight="SERVICES"
-            description="Meet iTEN.TV — where vision becomes unforgettable visual storytelling. We're selective about the projects we take on, so every one gets the full attention of a team with 70+ years of combined experience."
+            description="Meet iTEN.TV - where vision becomes unforgettable visual storytelling. We're selective about the projects we take on, so every one gets the full attention of a team with 70+ years of combined experience."
           />
           <Button to="#show-reel" icon={ArrowRight}>Watch Our Show Reel</Button>
         </div>
@@ -193,7 +193,7 @@ export default function Services() {
               </div>
             </div>
             <div className="space-y-5 text-gray text-sm md:text-base pt-2 md:pt-16">
-              <p>Meet iTEN.TV — where vision becomes unforgettable visual storytelling.</p>
+              <p>Meet iTEN.TV - where vision becomes unforgettable visual storytelling.</p>
               <p>
                 There are many production companies in this big, beautiful world, each specializing in
                 different areas. At iTEN.TV, we have a dedicated crew that knows exactly what it does best. We
@@ -211,7 +211,7 @@ export default function Services() {
                 training in our field.
               </p>
               <p className="text-white font-heading uppercase tracking-wide">
-                The only rule we have is — if we don't feel it, we don't do it.
+                The only rule we have is - if we don't feel it, we don't do it.
               </p>
             </div>
           </div>

@@ -26,7 +26,7 @@ const PARTNERS = [
 export default function Racing() {
   return (
     <>
-      <SEO title="Racing" description="From full TV productions to hero cards — iTEN.TV partners with race tracks, teams, and drivers across the country." />
+      <SEO title="Racing" description="From full TV productions to hero cards - iTEN.TV partners with race tracks, teams, and drivers across the country." />
 
       <section
         className="relative h-[45vh] min-h-[360px] flex items-end bg-cover bg-center pt-32"
@@ -44,7 +44,7 @@ export default function Racing() {
             Over the years, we've been lucky enough to team up with some of the most iconic race tracks and
             event series across the country! From crafting high-energy promotional videos to designing
             eye-catching posters, and even serving as exclusive photographers for some of the coolest venues,
-            we've been in the thick of it. But that's not all — our passion for racing extends to working with incredible race
+            we've been in the thick of it. But that's not all - our passion for racing extends to working with incredible race
             teams and up-and-coming drivers. We've helped racers put together killer sponsorship proposals,
             design custom, out-of-the-box hero cards, and capture every moment with personal, on-the-go
             photography. Plus, we love creating dynamic videos that light up their social media feeds.
