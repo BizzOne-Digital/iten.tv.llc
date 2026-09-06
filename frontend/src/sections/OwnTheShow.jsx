@@ -6,7 +6,7 @@ export default function OwnTheShow() {
     <section className="py-24 bg-bg">
       <div className="max-w-[1440px] mx-auto px-6 grid md:grid-cols-2 gap-12 items-start">
         <img
-          src="/own-the-show.jpg"
+          src="/racing/our.jpg"
           alt="Own the show - sponsorship on iTEN.TV"
           className="w-full rounded-lg border-2 border-brand-red object-cover"
         />
