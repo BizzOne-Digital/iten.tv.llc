@@ -9,6 +9,7 @@ import AboutSection from '../sections/AboutSection';
 import WhyItenTV from '../sections/WhyItenTV';
 import LatestNews from '../sections/LatestNews';
 import Gallery from '../sections/Gallery';
+import OwnTheShow from '../sections/OwnTheShow';
 import ContactCTA from '../sections/ContactCTA';
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
         <WhyItenTV />
         <LatestNews />
         <Gallery />
+        <OwnTheShow />
         <ContactCTA />
       </div>
     </>
