@@ -46,6 +46,16 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      <div className="border-t border-white/10 py-6 text-center">
+        <a
+          href="https://www.baggedandtaggedfilms.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="text-white font-heading uppercase tracking-wide hover:text-brand-red"
+        >
+          Bagged &amp; Tagged Films
+        </a>
+      </div>
       <div className="border-t border-white/10 py-6 text-center text-xs text-gray">
         &copy; {new Date().getFullYear()} iTEN.TV, LLC. All rights reserved.
       </div>
