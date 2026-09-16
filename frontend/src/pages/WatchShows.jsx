@@ -116,7 +116,7 @@ export default function WatchShows() {
             We're constantly uploading new shows, but in the meantime these are some of the shows we feature.
           </p>
           <p className="text-yellow-400 font-heading text-xl uppercase mb-2">NOW $19.95 Normally $35.90</p>
-          <p className="text-green-400 font-heading uppercase mb-6">Hurry... offer expires Sept 30th, 2026</p>
+          <p className="text-green-400 font-heading uppercase mb-6">Hurry... offer expires Oct 31st, 2026</p>
           <p className="text-gray text-sm mb-8">
             You can currently watch us on ROKU & AMAZON Firestick... You will also be able to watch on your phone
             once the "App" is released. You will not be charged again.
