@@ -22,11 +22,12 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h4 className="font-heading uppercase text-white text-sm tracking-wide mb-4">Legal</h4>
+          <h4 className="font-heading uppercase text-white text-sm tracking-wide mb-4">More Stuff</h4>
           <ul className="space-y-2 text-sm text-gray">
             <li><a href="/offers" className="hover:text-brand-red">Offers</a></li>
             <li><a href="/privacy" className="hover:text-brand-red">Privacy Policy</a></li>
             <li><a href="/terms" className="hover:text-brand-red">Terms of Service</a></li>
+            <li><a href="https://tvappbuilder.com/get-app/178" target="_blank" rel="noreferrer" className="hover:text-brand-red">Download App</a></li>
           </ul>
         </div>
         <div>
@@ -45,16 +46,6 @@ export default function Footer() {
             <a href="https://www.youtube.com/@iTENtv" target="_blank" rel="noreferrer" className="text-gray hover:text-brand-red"><Youtube size={20} /></a>
           </div>
         </div>
-      </div>
-      <div className="border-t border-white/10 py-6 text-center">
-        <a
-          href="https://www.baggedandtaggedfilms.com/"
-          target="_blank"
-          rel="noreferrer"
-          className="text-white font-heading uppercase tracking-wide hover:text-brand-red"
-        >
-          Bagged &amp; Tagged Films
-        </a>
       </div>
       <div className="border-t border-white/10 py-6 text-center text-xs text-gray">
         &copy; {new Date().getFullYear()} iTEN.TV, LLC. All rights reserved.
