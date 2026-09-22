@@ -28,6 +28,7 @@ export default function Footer() {
             <li><a href="/privacy" className="hover:text-brand-red">Privacy Policy</a></li>
             <li><a href="/terms" className="hover:text-brand-red">Terms of Service</a></li>
             <li><a href="https://tvappbuilder.com/get-app/178" target="_blank" rel="noreferrer" className="hover:text-brand-red">Download App</a></li>
+            <li><a href="https://itentvllc.square.site/" target="_blank" rel="noreferrer" className="hover:text-brand-red">Online Store</a></li>
           </ul>
         </div>
         <div>
