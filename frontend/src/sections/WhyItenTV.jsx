@@ -3,7 +3,7 @@ import SectionHeading from '../components/SectionHeading';
 
 const REASONS = [
   { icon: Sparkles, title: 'Authentic Storytelling', desc: 'Real drivers, real builders, real culture.' },
-  { icon: Clock, title: 'Fresh Weekly Content', desc: 'New episodes and clips released every week.' },
+  { icon: Clock, title: 'Fresh Monthly Content', desc: 'New episodes and clips released every month.' },
   { icon: ShieldCheck, title: 'Trusted by Brands', desc: 'Partnered with sponsors across motorsports.' },
   { icon: TrendingUp, title: 'Growing Audience', desc: 'Millions of views across streaming platforms.' },
 ];
